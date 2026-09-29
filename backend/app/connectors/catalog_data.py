@@ -1,0 +1,5617 @@
+"""
+Comprehensive Multi-Category Canonical Catalog for CompareX AI Shopping Providers.
+Contains 66+ Running Shoes across 15 Brands (Nike, Puma, Adidas, ASICS, Campus, Sparx, Reebok, Skechers, Asian, Bata, Red Tape, New Balance, Under Armour, Woodland, Decathlon).
+Every listing is strictly marked as mock/demo provider data.
+"""
+
+from typing import Dict, Any
+
+CANONICAL_DATABASE: Dict[str, Dict[str, Any]] = {
+    "shoe-nike-air-force-1-shadow": {
+        "canonical_id": "shoe-nike-air-force-1-shadow",
+        "title": "Nike Air Force 1 Shadow Women's / Men's Pastel Multi-Color Platform Sneakers",
+        "brand": "Nike",
+        "category": "running_shoes",
+        "subcategory": "Lifestyle & Streetwear Sneakers",
+        "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Lifestyle, Streetwear Fashion, All-Day Walking Comfort",
+            "Sole": "Exaggerated Foam Midsole with Encap Nike Air-Sole Unit",
+            "Material": "Premium Layered Genuine Leather & Synthetic Overlays",
+            "Weight": "365 g",
+            "Drop": "Platform Cupsole Elevation (38 mm)",
+            "Color": "Pale Ivory / Hydrogen Blue / Guava Ice / Light Pink",
+            "Terrain": "Urban, Casual, Street"
+        },
+        "base_score": 9.7,
+        "best_price": 7499,
+        "mrp": 9995,
+        "badge": "Iconic Streetwear",
+        "score_reasons": [
+            "Double-layered Swoosh branding and shadow detailing elevates classic AF1 DNA",
+            "Slightly elevated exaggerated midsole gives premium lifted aesthetic and all-day cushioning",
+            "Durable genuine leather upper with perforated toe box for breathability"
+        ],
+        "trade_offs": [
+            "Heavier construction (365g) built for lifestyle durability rather than marathon running."
+        ],
+        "price_history": [
+            {"date": "90d ago", "price": 9495},
+            {"date": "60d ago", "price": 8995},
+            {"date": "30d ago", "price": 7999},
+            {"date": "15d ago", "price": 7699},
+            {"date": "Current", "price": 7499}
+        ],
+        "sentiment": {
+            "positivePercentage": 96,
+            "neutralPercentage": 3,
+            "negativePercentage": 1,
+            "totalReviewsAnalyzed": 8900,
+            "topPros": ["Incredible pastel color blocking", "Very comfortable platform cushion", "Double swoosh looks stunning"],
+            "topCons": ["Fits true to size but may feel snug at first"],
+            "buyerVerdict": "One of the most sought-after pastel sneakers globally. Exceptional build and comfort."
+        },
+        "buy_advice": "Buy Now",
+        "offers": [
+            {
+                "provider": "Flipkart",
+                "price": 7499,
+                "original_price": 9995,
+                "currency": "INR",
+                "shipping": "Free Plus Delivery (2 Days)",
+                "availability": "In Stock",
+                "source_url": "https://www.flipkart.com",
+                "rating": 4.8,
+                "review_count": 8900,
+                "store_badge": "Lowest Price",
+                "badges": ["Lowest Price", "Bank Offer: ₹1,000 Off"]
+            },
+            {
+                "provider": "Myntra",
+                "price": 7699,
+                "original_price": 9995,
+                "currency": "INR",
+                "shipping": "Free Delivery (Tomorrow)",
+                "availability": "In Stock",
+                "source_url": "https://www.myntra.com",
+                "rating": 4.7,
+                "review_count": 5200,
+                "store_badge": "Sneakerhead Verified",
+                "badges": ["Coupon SNEAKER15"]
+            },
+            {
+                "provider": "Nike Official Store",
+                "price": 8995,
+                "original_price": 9995,
+                "currency": "INR",
+                "shipping": "Express Courier",
+                "availability": "In Stock",
+                "source_url": "https://www.nike.com/in",
+                "rating": 4.9,
+                "review_count": 14500,
+                "store_badge": "Official Store",
+                "badges": ["100% Genuine Warranty"]
+            },
+            {
+                "provider": "Amazon",
+                "price": 7795,
+                "original_price": 9995,
+                "currency": "INR",
+                "shipping": "Prime One-Day Delivery",
+                "availability": "In Stock",
+                "source_url": "https://www.amazon.in",
+                "rating": 4.6,
+                "review_count": 4100,
+                "store_badge": "Prime Seller",
+                "badges": ["Fast Delivery"]
+            }
+        ],
+        "fastest_delivery": "Tomorrow",
+        "rating": 4.8,
+        "review_count": 8900,
+        "score_breakdown": {
+            "price_match": 9.7,
+            "performance": 9.6,
+            "reviews": 9.8,
+            "delivery": 9.7,
+            "user_preference": 9.8
+        }
+    },
+    "shoe-nike-downshifter-12": {
+        "canonical_id": "shoe-nike-downshifter-12",
+        "title": "Nike Downshifter 12 Lightweight Road Running Shoes (Midfoot Support Band)",
+        "brand": "Nike",
+        "category": "running_shoes",
+        "subcategory": "Daily Road Running",
+        "image": "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Daily 5km Running, Morning Jogging, Gym Training",
+            "Sole": "Super-Soft Phylon Foam with Full Rubber Outsole",
+            "Material": "Lightweight Open-Cell Mesh for Active Ventilation",
+            "Weight": "270 g",
+            "Drop": "9.5 mm Heel-to-Toe Drop",
+            "Color": "Black / White / Smoke Grey",
+            "Terrain": "Road & Track"
+        },
+        "base_score": 9.3,
+        "best_price": 3195,
+        "mrp": 4295,
+        "badge": "Popular Choice",
+        "score_reasons": [
+            "Exceptional entry-level Nike road runner priced comfortably under \u20b93,500",
+            "Fit band across midfoot works with laces to lock your foot securely",
+            "Full-length durable rubber outsole prevents premature tread wear"
+        ],
+        "trade_offs": [
+            "Cushioning is firm Phylon rather than soft React/ZoomX foam.",
+            "Not optimized for marathon distances above 15km."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 4080
+            },
+            {
+                "date": "60d ago",
+                "price": 3642
+            },
+            {
+                "date": "30d ago",
+                "price": 3386
+            },
+            {
+                "date": "15d ago",
+                "price": 3226
+            },
+            {
+                "date": "Current",
+                "price": 3195
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Nike runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Nike midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-nike-revolution-7": {
+        "canonical_id": "shoe-nike-revolution-7",
+        "title": "Nike Revolution 7 Road Running Shoes (Soft Foam Midsole, Roomier Forefoot)",
+        "brand": "Nike",
+        "category": "running_shoes",
+        "subcategory": "Daily Road Running",
+        "image": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Daily Running, 3km-8km Sessions, Casual Fitness",
+            "Sole": "Molded EVA Foam with Generative Rubber Traction",
+            "Material": "Knit Breathable Textile Upper",
+            "Weight": "280 g",
+            "Drop": "10 mm",
+            "Color": "Midnight Navy / White",
+            "Terrain": "Tarmac, Sidewalks, Treadmill"
+        },
+        "base_score": 9.2,
+        "best_price": 2795,
+        "mrp": 3695,
+        "badge": "Best Value",
+        "score_reasons": [
+            "Widened forefoot box allows toes to splay naturally",
+            "Puffy heel collar prevents Achilles chafing during long workouts",
+            "Reliable everyday workhorse priced well under \u20b93,000"
+        ],
+        "trade_offs": [
+            "Sole flexibility is moderate rather than race-springy.",
+            "Outsole grip can slip on smooth wet tile surfaces."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 3510
+            },
+            {
+                "date": "60d ago",
+                "price": 3186
+            },
+            {
+                "date": "30d ago",
+                "price": 2962
+            },
+            {
+                "date": "15d ago",
+                "price": 2822
+            },
+            {
+                "date": "Current",
+                "price": 2795
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Nike runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Nike midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-nike-pegasus-40": {
+        "canonical_id": "shoe-nike-pegasus-40",
+        "title": "Nike Air Zoom Pegasus 40 Daily Road Running Shoes (React Foam, Dual Zoom Air)",
+        "brand": "Nike",
+        "category": "running_shoes",
+        "subcategory": "Workhorse Road Running",
+        "image": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Daily Road Running, 5km to Full Marathon Training",
+            "Sole": "Full-Length Nike React Foam with Forefoot & Heel Zoom Air Units",
+            "Material": "Single-Layer Engineered Breathable Mesh",
+            "Weight": "288 g",
+            "Drop": "10 mm",
+            "Color": "Black / White / University Red",
+            "Terrain": "Road & Pavement"
+        },
+        "base_score": 9.7,
+        "best_price": 7895,
+        "mrp": 10495,
+        "badge": "Best Overall",
+        "score_reasons": [
+            "The industry benchmark for road running durability (800+ km lifespan)",
+            "Dual Zoom Air pockets deliver snappy energetic bounce",
+            "Exceptional comfort across all types of foot arches"
+        ],
+        "trade_offs": [
+            "Higher price tag compared to entry level trainers.",
+            "Runs slightly warm in hot summer afternoons."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 9970
+            },
+            {
+                "date": "60d ago",
+                "price": 9000
+            },
+            {
+                "date": "30d ago",
+                "price": 8368
+            },
+            {
+                "date": "15d ago",
+                "price": 7973
+            },
+            {
+                "date": "Current",
+                "price": 7895
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Nike runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Nike midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-nike-winflo-10": {
+        "canonical_id": "shoe-nike-winflo-10",
+        "title": "Nike Winflo 10 Neutral Road Running Shoes (Cushlon Foam + Full-Length Air)",
+        "brand": "Nike",
+        "category": "running_shoes",
+        "subcategory": "Cushioned Daily Running",
+        "image": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Daily 5k-15k Road Training, High Arch Support",
+            "Sole": "Cushlon Foam with Full-Length Nike Air Unit",
+            "Material": "Engineered Breathable Jacquard Mesh",
+            "Weight": "285 g",
+            "Drop": "10 mm",
+            "Color": "White / Light Smoke Grey / Laser Orange",
+            "Terrain": "Road & Track"
+        },
+        "base_score": 9.4,
+        "best_price": 5495,
+        "mrp": 7495,
+        "badge": "High Cushion",
+        "score_reasons": [
+            "Full-length Air unit provides cloud-like landings on hard pavement",
+            "More toe room than previous generation for natural toe splay",
+            "Cushlon foam midsole softens impact on knees"
+        ],
+        "trade_offs": [
+            "Stack height feels plush, less ground feel for sprinting.",
+            "Weight is slightly higher at 285 grams."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 7120
+            },
+            {
+                "date": "60d ago",
+                "price": 6264
+            },
+            {
+                "date": "30d ago",
+                "price": 5824
+            },
+            {
+                "date": "15d ago",
+                "price": 5549
+            },
+            {
+                "date": "Current",
+                "price": 5495
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Nike runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Nike midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-nike-quest-5": {
+        "canonical_id": "shoe-nike-quest-5",
+        "title": "Nike Quest 5 Road Running Shoes (Supersoft Foam, Neutral Ride)",
+        "brand": "Nike",
+        "category": "running_shoes",
+        "subcategory": "Daily Road Running",
+        "image": "https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Daily Running, Fitness Jogging, 5km Sessions",
+            "Sole": "Elevated Soft Foam Midsole with Waffle Rubber Tread",
+            "Material": "Translucent Engineered Mesh across Forefoot",
+            "Weight": "265 g",
+            "Drop": "9 mm",
+            "Color": "Black / Metallic Silver",
+            "Terrain": "Road & Asphalt"
+        },
+        "base_score": 9.3,
+        "best_price": 3895,
+        "mrp": 5295,
+        "badge": "Best Value",
+        "score_reasons": [
+            "Supersoft foam through the midsole provides a smooth step-in feel",
+            "Translucent mesh windows deliver targeted cooling on hot runs",
+            "Priced under \u20b94,000 for genuine Nike performance"
+        ],
+        "trade_offs": [
+            "Outsole rubber is thinner at the midfoot arch.",
+            "Midfoot band is snug for wide feet."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 5030
+            },
+            {
+                "date": "60d ago",
+                "price": 4440
+            },
+            {
+                "date": "30d ago",
+                "price": 4128
+            },
+            {
+                "date": "15d ago",
+                "price": 3933
+            },
+            {
+                "date": "Current",
+                "price": 3895
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Nike runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Nike midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-nike-air-max-alpha": {
+        "canonical_id": "shoe-nike-air-max-alpha",
+        "title": "Nike Air Max Alpha Trainer 5 (Max Air Heel Unit, Flat Wide Base)",
+        "brand": "Nike",
+        "category": "running_shoes",
+        "subcategory": "Cross-Training & Running",
+        "image": "https://images.unsplash.com/photo-1582588678413-dbf45f4823e9?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Gym Workouts, Treadmill Cardio, Short Road Runs",
+            "Sole": "Max Air Heel Cushioning Unit with Broad Stable Rubber Base",
+            "Material": "Durable Mesh with Rubber Lateral Wrap",
+            "Weight": "310 g",
+            "Drop": "8 mm",
+            "Color": "Iron Grey / Bright Crimson / Black",
+            "Terrain": "Gym Floor, Track & Road"
+        },
+        "base_score": 9.4,
+        "best_price": 4995,
+        "mrp": 6495,
+        "badge": "Gym & Road",
+        "score_reasons": [
+            "Visible Max Air bubble provides firm heel stabilization under load",
+            "Broad flat base prevents ankle rolling during fast side cuts",
+            "Rugged rubber wrap resists abrasion from gym equipment"
+        ],
+        "trade_offs": [
+            "Firmer sole designed for gym stability over soft marathon jogging.",
+            "Weighs 310g."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 6170
+            },
+            {
+                "date": "60d ago",
+                "price": 5694
+            },
+            {
+                "date": "30d ago",
+                "price": 5294
+            },
+            {
+                "date": "15d ago",
+                "price": 5044
+            },
+            {
+                "date": "Current",
+                "price": 4995
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Nike runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Nike midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-nike-react-infinity-3": {
+        "canonical_id": "shoe-nike-react-infinity-3",
+        "title": "Nike React Infinity Run Flyknit 3 (Injury Prevention Rocker, React Foam)",
+        "brand": "Nike",
+        "category": "running_shoes",
+        "subcategory": "Injury Prevention",
+        "image": "https://images.unsplash.com/photo-1539185441755-769473a23570?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "High-Mileage Marathon Prep, Knee Impact Reduction",
+            "Sole": "High-Stack Nike React Foam with Wide Base Rocker Geometry",
+            "Material": "Flyknit Breathable Stretchy Upper with Flywire",
+            "Weight": "290 g",
+            "Drop": "9 mm",
+            "Color": "Racer Blue / White / Chile Red",
+            "Terrain": "Road & Pavement"
+        },
+        "base_score": 9.6,
+        "best_price": 9495,
+        "mrp": 13995,
+        "badge": "Joint Protection",
+        "score_reasons": [
+            "Rocker shaped React foam propels stride effortlessly while protecting knees",
+            "Wide base geometry reduces excessive foot pronation",
+            "Flyknit upper holds foot seamlessly with zero pressure points"
+        ],
+        "trade_offs": [
+            "Premium price point (\u20b99,495).",
+            "Firm plastic heel clip can feel stiff if sizing isn't exact."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 13295
+            },
+            {
+                "date": "60d ago",
+                "price": 10824
+            },
+            {
+                "date": "30d ago",
+                "price": 10064
+            },
+            {
+                "date": "15d ago",
+                "price": 9589
+            },
+            {
+                "date": "Current",
+                "price": 9495
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Nike runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Nike midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-puma-velocity-nitro": {
+        "canonical_id": "shoe-puma-velocity-nitro",
+        "title": "Puma Velocity Nitro 2 Lightweight Road Running Shoes (NITRO Foam, PUMAGRIP)",
+        "brand": "Puma",
+        "category": "running_shoes",
+        "subcategory": "Daily Road Running",
+        "image": "https://images.unsplash.com/photo-1512374382149-233c42b6a83b?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Daily Road Running, 5km to 10km Tempo Training",
+            "Sole": "NITRO Foam Infused Cushioning + PROFOAM LITE Layer",
+            "Material": "Plush Engineered Breathable Mesh",
+            "Weight": "257 g",
+            "Drop": "10 mm Heel-to-Toe Drop",
+            "Color": "Electro Lime / Puma Black",
+            "Terrain": "Road, Pavement, Treadmill"
+        },
+        "base_score": 9.6,
+        "best_price": 3899,
+        "mrp": 7999,
+        "badge": "Best For You",
+        "score_reasons": [
+            "Undisputed #1 value daily running trainer under \u20b94,000 in India",
+            "PUMAGRIP outsole delivers industry-leading traction in wet and dry conditions",
+            "Nitrogen-infused foam provides plush bounce while safeguarding joints"
+        ],
+        "trade_offs": [
+            "Forefoot fit is slightly snug for wide feet (consider sizing up a half step).",
+            "Plush mesh upper runs warm during peak afternoon runs."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 7599
+            },
+            {
+                "date": "60d ago",
+                "price": 4444
+            },
+            {
+                "date": "30d ago",
+                "price": 4132
+            },
+            {
+                "date": "15d ago",
+                "price": 3937
+            },
+            {
+                "date": "Current",
+                "price": 3899
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Puma runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Puma midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-puma-electrify-nitro-3": {
+        "canonical_id": "shoe-puma-electrify-nitro-3",
+        "title": "Puma Electrify Nitro 3 Road Running Shoes (NITRO Heel Pod, PROFOAMLITE)",
+        "brand": "Puma",
+        "category": "running_shoes",
+        "subcategory": "Daily Road Running",
+        "image": "https://images.unsplash.com/photo-1595341888016-a392ef81b7de?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Daily Running, Beginner to Intermediate Road Runners",
+            "Sole": "Dual Midsole: Nitrogen-Infused NITRO Heel Pod + PROFOAMLITE",
+            "Material": "Engineered Mesh with Rolled Collar",
+            "Weight": "260 g",
+            "Drop": "10 mm",
+            "Color": "Royal Blue / Lime Sizzle",
+            "Terrain": "Road & Treadmill"
+        },
+        "base_score": 9.5,
+        "best_price": 3399,
+        "mrp": 6499,
+        "badge": "Best Value",
+        "score_reasons": [
+            "Delivers Puma's elite NITRO cushioning at a budget-friendly \u20b93,399 price point",
+            "PUMAGRIP outsole ensures you never slip in rainy monsoon morning runs",
+            "Rolled heel collar locks the Achilles comfortably with zero blistering"
+        ],
+        "trade_offs": [
+            "NITRO foam is positioned in heel rather than full length.",
+            "Upper is slightly stiff for the first 10 kilometers."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 6174
+            },
+            {
+                "date": "60d ago",
+                "price": 3874
+            },
+            {
+                "date": "30d ago",
+                "price": 3602
+            },
+            {
+                "date": "15d ago",
+                "price": 3432
+            },
+            {
+                "date": "Current",
+                "price": 3399
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Puma runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Puma midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-puma-transport-modern": {
+        "canonical_id": "shoe-puma-transport-modern",
+        "title": "Puma Transport Modern Road Running Shoes (Softride Foam, Full Rubber Outsole)",
+        "brand": "Puma",
+        "category": "running_shoes",
+        "subcategory": "Budget Daily Running",
+        "image": "https://images.unsplash.com/photo-1587563871167-1ee9c731aefb?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Daily 3k-5k Running, Gym Warmup, Everyday Jogging",
+            "Sole": "Softride Cushion Foam with Full-Coverage Rubber Outsole",
+            "Material": "Clean Breathable Mesh with Synthetic Eyestay",
+            "Weight": "272 g",
+            "Drop": "9.5 mm",
+            "Color": "Puma Black / High Risk Red",
+            "Terrain": "Road, Treadmill, Park Track"
+        },
+        "base_score": 9.2,
+        "best_price": 2099,
+        "mrp": 3999,
+        "badge": "Budget Pick",
+        "score_reasons": [
+            "Sub-\u20b92,100 entry to genuine Puma running lineage",
+            "Full-coverage rubber bottom ensures long-lasting durability on city roads",
+            "Softride footbed provides all-day cushioning"
+        ],
+        "trade_offs": [
+            "Does not feature the nitrogen-infused foam found in Nitro models.",
+            "Standard tongue instead of gusseted wrap."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 3799
+            },
+            {
+                "date": "60d ago",
+                "price": 2392
+            },
+            {
+                "date": "30d ago",
+                "price": 2224
+            },
+            {
+                "date": "15d ago",
+                "price": 2119
+            },
+            {
+                "date": "Current",
+                "price": 2099
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Puma runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Puma midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-puma-softride-rift": {
+        "canonical_id": "shoe-puma-softride-rift",
+        "title": "Puma Softride Rift Slip-On Running Shoes (SoftFoam+ Comfort Sockliner)",
+        "brand": "Puma",
+        "category": "running_shoes",
+        "subcategory": "Slip-On Running",
+        "image": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Jogging, Walking, Easy 5k Running",
+            "Sole": "Softride Ultra-Plush EVA Midsole with Zonal Rubber Pods",
+            "Material": "Breathable Slip-On Bootie Knit",
+            "Weight": "245 g",
+            "Drop": "9 mm",
+            "Color": "Castlerock / High Risk Red",
+            "Terrain": "Road & Pavement"
+        },
+        "base_score": 9.3,
+        "best_price": 2499,
+        "mrp": 4999,
+        "badge": "Easy Slip-On",
+        "score_reasons": [
+            "Laceless slip-on bootie design allows 3-second step-in convenience",
+            "SoftFoam+ dual-density insole cushions heel and arch effortlessly",
+            "Sub-250g weight feels like wearing a feather"
+        ],
+        "trade_offs": [
+            "Slip-on collar provides less lateral lockdown for fast cornering.",
+            "Zonal rubber pads rather than full-length rubber bottom."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 4749
+            },
+            {
+                "date": "60d ago",
+                "price": 2848
+            },
+            {
+                "date": "30d ago",
+                "price": 2648
+            },
+            {
+                "date": "15d ago",
+                "price": 2523
+            },
+            {
+                "date": "Current",
+                "price": 2499
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Puma runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Puma midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-puma-scend-pro": {
+        "canonical_id": "shoe-puma-scend-pro",
+        "title": "Puma Scend Pro Road Running Shoes (PROFOAM LITE, Protread Rubber)",
+        "brand": "Puma",
+        "category": "running_shoes",
+        "subcategory": "Daily Road Running",
+        "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Daily 5k-10k Running, Treadmill Training",
+            "Sole": "PROFOAM LITE High-Rebound EVA with Protread Rubber",
+            "Material": "Ventilated Engineered Mesh Upper",
+            "Weight": "268 g",
+            "Drop": "10 mm",
+            "Color": "Puma Navy / Fizzy Lime",
+            "Terrain": "Road & Track"
+        },
+        "base_score": 9.3,
+        "best_price": 2899,
+        "mrp": 5499,
+        "badge": "Best Value",
+        "score_reasons": [
+            "ProFoam Lite provides responsive spring back on every push-off",
+            "Protread zoned rubber handles wet asphalt reliably",
+            "Priced under \u20b93,000 for serious everyday training"
+        ],
+        "trade_offs": [
+            "Sole is slightly firm out of the box.",
+            "Arch support is standard."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 5224
+            },
+            {
+                "date": "60d ago",
+                "price": 3304
+            },
+            {
+                "date": "30d ago",
+                "price": 3072
+            },
+            {
+                "date": "15d ago",
+                "price": 2927
+            },
+            {
+                "date": "Current",
+                "price": 2899
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Puma runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Puma midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-puma-flyer-runner": {
+        "canonical_id": "shoe-puma-flyer-runner",
+        "title": "Puma Flyer Runner Mesh Daily Running Shoes (SoftFoam+ Optimal Comfort)",
+        "brand": "Puma",
+        "category": "running_shoes",
+        "subcategory": "Budget Daily Running",
+        "image": "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Morning Jogging, Daily Steps, Fitness Walking",
+            "Sole": "Smooth EVA Midsole with Heel and Toe Rubber Pods",
+            "Material": "Custom Mesh Fabric with Clean Puma Formstrip",
+            "Weight": "250 g",
+            "Drop": "8.5 mm",
+            "Color": "Puma Black / Puma White",
+            "Terrain": "Road & Park Tracks"
+        },
+        "base_score": 9.1,
+        "best_price": 1899,
+        "mrp": 3499,
+        "badge": "Budget Pick",
+        "score_reasons": [
+            "Best-selling Puma entry shoe in India with 20,000+ verified ratings",
+            "Featherlight 250g chassis prevents foot tiredness",
+            "Clean silhouette transitions from morning runs to casual wear"
+        ],
+        "trade_offs": [
+            "EVA midsole compresses after ~450km.",
+            "Not meant for competitive speed training."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 3324
+            },
+            {
+                "date": "60d ago",
+                "price": 2164
+            },
+            {
+                "date": "30d ago",
+                "price": 2012
+            },
+            {
+                "date": "15d ago",
+                "price": 1917
+            },
+            {
+                "date": "Current",
+                "price": 1899
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Puma runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Puma midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-puma-deviate-nitro-2": {
+        "canonical_id": "shoe-puma-deviate-nitro-2",
+        "title": "Puma Deviate Nitro 2 Carbon-Plated Marathon Racer (INNOPLATE, NITRO Elite)",
+        "brand": "Puma",
+        "category": "running_shoes",
+        "subcategory": "Carbon-Plated Racer",
+        "image": "https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Marathon Racing, Fast Tempo Runs, Race Day PB",
+            "Sole": "Dual NITRO Elite Supercritical Foam + Carbon Composite INNOPLATE",
+            "Material": "Ultra-Breathable Racing Monomesh with PWRTAPE Support",
+            "Weight": "258 g",
+            "Drop": "8 mm",
+            "Color": "Sun Stream / Sunset Glow",
+            "Terrain": "Road Racing & Track"
+        },
+        "base_score": 9.8,
+        "best_price": 9999,
+        "mrp": 15999,
+        "badge": "Carbon Plated PB",
+        "score_reasons": [
+            "Carbon composite INNOPLATE acts as a springboard for maximum forward propulsion",
+            "Supercritical NITRO Elite foam provides world-record caliber energy return",
+            "PUMAGRIP outsole ensures perfect cornering in wet road race conditions"
+        ],
+        "trade_offs": [
+            "High performance race pricing (~\u20b99,999).",
+            "Stiff carbon plate requires good running form and cadence."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 15199
+            },
+            {
+                "date": "60d ago",
+                "price": 11398
+            },
+            {
+                "date": "30d ago",
+                "price": 10598
+            },
+            {
+                "date": "15d ago",
+                "price": 10098
+            },
+            {
+                "date": "Current",
+                "price": 9999
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Puma runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Puma midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-adidas-duramo-speed": {
+        "canonical_id": "shoe-adidas-duramo-speed",
+        "title": "Adidas Duramo Speed Running Shoes with LIGHTSTRIKE Cushioning",
+        "brand": "Adidas",
+        "category": "running_shoes",
+        "subcategory": "Speed & Daily Training",
+        "image": "https://images.unsplash.com/photo-1607522370275-f14206abe5d3?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Tempo Runs, Daily 5k-10k Road Training",
+            "Sole": "Full-Length Lightstrike EVA Foam with Adiwear Rubber",
+            "Material": "Engineered Breathable Mesh (50% Recycled Content)",
+            "Weight": "265 g",
+            "Drop": "9.5 mm",
+            "Color": "Lucid Cyan / Core Black / Solar Red",
+            "Terrain": "Road & Asphalt"
+        },
+        "base_score": 9.5,
+        "best_price": 3699,
+        "mrp": 6999,
+        "badge": "Best Value",
+        "score_reasons": [
+            "Features premium Lightstrike foam typically reserved for \u20b98,000+ race models",
+            "Snappy energy return makes speed workouts and daily 5km runs effortless",
+            "Adiwear heavy-abrasion rubber withstands rough Indian tarmac"
+        ],
+        "trade_offs": [
+            "Lightstrike foam has a slightly firmer, responsive ride rather than marshmallow plush.",
+            "Tongue is thin and racing-styled, requiring flat lacing."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 6649
+            },
+            {
+                "date": "60d ago",
+                "price": 4216
+            },
+            {
+                "date": "30d ago",
+                "price": 3920
+            },
+            {
+                "date": "15d ago",
+                "price": 3735
+            },
+            {
+                "date": "Current",
+                "price": 3699
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Adidas runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Adidas midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-adidas-galaxy-6": {
+        "canonical_id": "shoe-adidas-galaxy-6",
+        "title": "Adidas Galaxy 6 Road Running Shoes (Cloudfoam Midsole, OrthoLite Sockliner)",
+        "brand": "Adidas",
+        "category": "running_shoes",
+        "subcategory": "Daily Road Running",
+        "image": "https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Daily Easy Runs, Treadmill, All-Day Walking",
+            "Sole": "Cloudfoam Cushioned Midsole with Non-Marking Rubber",
+            "Material": "Air Mesh Upper with TPU Eyestay Reinforcements",
+            "Weight": "290 g",
+            "Drop": "10 mm",
+            "Color": "Core Black / Cloud White",
+            "Terrain": "Road, Gym, Treadmill"
+        },
+        "base_score": 9.2,
+        "best_price": 2399,
+        "mrp": 4999,
+        "badge": "Best Value",
+        "score_reasons": [
+            "Cloudfoam delivers step-in cloud-like softness from day one",
+            "OrthoLite antimicrobial sockliner absorbs sweat and prevents foot odor",
+            "Incredible value under \u20b92,500 after multi-store card discounts"
+        ],
+        "trade_offs": [
+            "Heavier weight (290g) than tempo shoes.",
+            "Cushioning compresses after 400km of continuous heavy usage."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 4749
+            },
+            {
+                "date": "60d ago",
+                "price": 2734
+            },
+            {
+                "date": "30d ago",
+                "price": 2542
+            },
+            {
+                "date": "15d ago",
+                "price": 2422
+            },
+            {
+                "date": "Current",
+                "price": 2399
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Adidas runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Adidas midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-adidas-runfalcon-3": {
+        "canonical_id": "shoe-adidas-runfalcon-3",
+        "title": "Adidas Runfalcon 3.0 Road Running Shoes (Cloudfoam Midsole, Textile Lining)",
+        "brand": "Adidas",
+        "category": "running_shoes",
+        "subcategory": "Daily Road Running",
+        "image": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Daily Road Jogging, 5k Training, All-Day Fitness",
+            "Sole": "Cloudfoam Shock-Absorbing Midsole with Rubber Outsole",
+            "Material": "Breathable Textile Upper with Recycled Material",
+            "Weight": "275 g",
+            "Drop": "9 mm",
+            "Color": "Core Black / Carbon / Lucid Lemon",
+            "Terrain": "Road & Pavement"
+        },
+        "base_score": 9.3,
+        "best_price": 2599,
+        "mrp": 4599,
+        "badge": "Best Value",
+        "score_reasons": [
+            "Among the best-selling running models in India for price-to-performance",
+            "Soft Cloudfoam midsole absorbs street vibrations reliably",
+            "Durable rubber outsole delivers predictable grip across wet tarmac"
+        ],
+        "trade_offs": [
+            "Upper knit is slightly less flexible around wide midfoots.",
+            "Not meant for competitive half-marathon pace below 4:30 min/km."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 4369
+            },
+            {
+                "date": "60d ago",
+                "price": 2962
+            },
+            {
+                "date": "30d ago",
+                "price": 2754
+            },
+            {
+                "date": "15d ago",
+                "price": 2624
+            },
+            {
+                "date": "Current",
+                "price": 2599
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Adidas runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Adidas midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-adidas-ultraboost-light": {
+        "canonical_id": "shoe-adidas-ultraboost-light",
+        "title": "Adidas Ultraboost Light Running Shoes (Light BOOST Foam, Continental Rubber)",
+        "brand": "Adidas",
+        "category": "running_shoes",
+        "subcategory": "Premium Energy Return",
+        "image": "https://images.unsplash.com/photo-1605348532760-6753d2c43329?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Long Distance Road Running, Recovery Jogging, All-Day Comfort",
+            "Sole": "Light BOOST Foam (30% Lighter) + Continental Rubber Outsole",
+            "Material": "PRIMEKNIT+ Textile Upper",
+            "Weight": "295 g",
+            "Drop": "10 mm",
+            "Color": "Core Black / Cloud White",
+            "Terrain": "Road & Pavement"
+        },
+        "base_score": 9.6,
+        "best_price": 11899,
+        "mrp": 17999,
+        "badge": "Energy Return",
+        "score_reasons": [
+            "Legendary BOOST energy return now 30% lighter with zero joint fatigue",
+            "Continental rubber outsole provides the highest wet-weather grip in the industry",
+            "PRIMEKNIT upper hugs foot like a tailored sock"
+        ],
+        "trade_offs": [
+            "Premium price tier (\u20b911,899).",
+            "Not suited for muddy trail conditions."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 17099
+            },
+            {
+                "date": "60d ago",
+                "price": 13564
+            },
+            {
+                "date": "30d ago",
+                "price": 12612
+            },
+            {
+                "date": "15d ago",
+                "price": 12017
+            },
+            {
+                "date": "Current",
+                "price": 11899
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Adidas runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Adidas midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-adidas-fluidflow-2": {
+        "canonical_id": "shoe-adidas-fluidflow-2",
+        "title": "Adidas Fluidflow 2.0 Road Running Shoes (Bounce Midsole, Circular Knit)",
+        "brand": "Adidas",
+        "category": "running_shoes",
+        "subcategory": "Daily Road Running",
+        "image": "https://images.unsplash.com/photo-1562183241-b937e95585b6?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Daily 5km-10km Running, Gym, Walking",
+            "Sole": "Bounce Springy Midsole with Synthetic Outsole",
+            "Material": "Breathable Circular-Knit Textile",
+            "Weight": "270 g",
+            "Drop": "9.5 mm",
+            "Color": "Core Black / Solar Red",
+            "Terrain": "Road & Treadmill"
+        },
+        "base_score": 9.3,
+        "best_price": 3199,
+        "mrp": 5999,
+        "badge": "Bounce Cushion",
+        "score_reasons": [
+            "Adidas Bounce cushioning provides springy toe-off acceleration",
+            "Adaptive circular knit upper expands naturally with your foot heat",
+            "Solid balance of aesthetics and running performance under \u20b93,200"
+        ],
+        "trade_offs": [
+            "Outsole has rubber inserts rather than full rubber sheet.",
+            "Arch contouring is medium."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 5699
+            },
+            {
+                "date": "60d ago",
+                "price": 3646
+            },
+            {
+                "date": "30d ago",
+                "price": 3390
+            },
+            {
+                "date": "15d ago",
+                "price": 3230
+            },
+            {
+                "date": "Current",
+                "price": 3199
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Adidas runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Adidas midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-adidas-supernova-solution-3": {
+        "canonical_id": "shoe-adidas-supernova-solution-3",
+        "title": "Adidas Supernova Solution 3 M Running Shoes For Men (Dreamstrike+, Dual Support Rods, Adiwear)",
+        "brand": "Adidas",
+        "category": "running_shoes",
+        "subcategory": "Stability Daily Road Running",
+        "image": "https://images.unsplash.com/photo-1514989940723-e8e51635b782?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Daily Road Running, High-Mileage Training, Pronation Stability & Knee Comfort",
+            "Sole": "Dreamstrike+ PEBA Super Foam with Bottom-Loaded Support Rods",
+            "Material": "Engineered Breathable Sandwich Air-Mesh with Secure Heel Pillow",
+            "Weight": "285 g (Men's UK 8)",
+            "Drop": "10 mm Heel-to-Toe Drop (Heel: 36mm / Forefoot: 26mm)",
+            "Color": "Lucid Blue / Solar Orange / Cloud White",
+            "Terrain": "Road, Tarmac, Sidewalk & Treadmill"
+        },
+        "base_score": 9.6,
+        "best_price": 5999,
+        "mrp": 11999,
+        "badge": "Top Stability Choice",
+        "score_reasons": [
+            "Dreamstrike+ PEBA super foam delivers plush impact damping with responsive toe-off energy",
+            "Dual-density Support Rods provide gentle guidance for neutral to mild overpronators",
+            "Adiwear high-abrasion rubber outsole engineered for long-term road durability"
+        ],
+        "trade_offs": [
+            "Stability rods make the heel slightly firmer than neutral Supernova Rise.",
+            "Priced in the premium runner segment (MRP \u20b911,999, typical best deal \u20b95,999)."
+        ],
+        "price_history": [
+            {"date": "90d ago", "price": 10999},
+            {"date": "60d ago", "price": 7999},
+            {"date": "30d ago", "price": 6499},
+            {"date": "15d ago", "price": 6199},
+            {"date": "Current", "price": 5999}
+        ],
+        "sentiment": {
+            "positive_pct": 94,
+            "neutral_pct": 4,
+            "negative_pct": 2,
+            "summary": "High praise from marathoners and road runners for plush forefoot cushioning and stable guidance.",
+            "pros": [
+                "Exceptional Dreamstrike+ foam bounciness",
+                "Stability rods prevent ankle rollover without feeling rigid",
+                "Outstanding road grip on wet and dry tarmac"
+            ],
+            "cons": [
+                "True to size fit; runners with wide feet should consider half size up"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.6,
+            "performance": 9.7,
+            "reviews": 9.5,
+            "delivery": 9.4,
+            "user_preference": 9.5
+        },
+        "offers": [
+            {
+                "provider": "Flipkart",
+                "price": 5999,
+                "listed_price": 6499,
+                "original_price": 11999,
+                "currency": "INR",
+                "shipping": "Tomorrow (Free Plus Delivery)",
+                "availability": "In Stock",
+                "source_url": "https://www.flipkart.com",
+                "rating": 4.8,
+                "review_count": 3120,
+                "store_badge": "Lowest Price",
+                "badges": ["Lowest Price", "50% Off", "Verified Seller"]
+            },
+            {
+                "provider": "Amazon",
+                "price": 6499,
+                "listed_price": 6999,
+                "original_price": 11999,
+                "currency": "INR",
+                "shipping": "Prime One-Day Delivery",
+                "availability": "In Stock",
+                "source_url": "https://www.amazon.in",
+                "rating": 4.7,
+                "review_count": 2840,
+                "store_badge": "Prime Delivery",
+                "badges": ["Prime Delivery", "Bank Offer: \u20b9500 Off"]
+            },
+            {
+                "provider": "Myntra",
+                "price": 6299,
+                "listed_price": 6799,
+                "original_price": 11999,
+                "currency": "INR",
+                "shipping": "2 Days Delivery",
+                "availability": "In Stock",
+                "source_url": "https://www.myntra.com",
+                "rating": 4.7,
+                "review_count": 1420,
+                "store_badge": "Verified",
+                "badges": ["Verified"]
+            },
+            {
+                "provider": "Adidas Official Store",
+                "price": 8999,
+                "listed_price": 11999,
+                "original_price": 11999,
+                "currency": "INR",
+                "shipping": "Express Courier",
+                "availability": "In Stock",
+                "source_url": "https://www.adidas.co.in",
+                "rating": 4.9,
+                "review_count": 5600,
+                "store_badge": "Official Store",
+                "badges": ["Official Store", "100% Authentic Warranty"]
+            }
+        ]
+    },
+    "shoe-adidas-supernova-stride": {
+        "canonical_id": "shoe-adidas-supernova-stride",
+        "title": "Adidas Supernova Stride Daily Running Shoes (Dreamstrike+ Super Foam, Adiwear)",
+        "brand": "Adidas",
+        "category": "running_shoes",
+        "subcategory": "Max Comfort Daily",
+        "image": "https://images.unsplash.com/photo-1617606002779-51d866bdd1d1?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Daily 5k to Half Marathon Training, Impact Reduction",
+            "Sole": "Dreamstrike+ Super Foam Forefoot Cushioning + Carrier EVA",
+            "Material": "Sandwich Engineered Mesh with Padded Heel",
+            "Weight": "270 g",
+            "Drop": "10 mm",
+            "Color": "Preloved Blue / Lucid Lemon",
+            "Terrain": "Road & Pavement"
+        },
+        "base_score": 9.5,
+        "best_price": 5999,
+        "mrp": 9999,
+        "badge": "Top Rated",
+        "score_reasons": [
+            "Dreamstrike+ PEBA-based super foam softens forefoot landing pressure",
+            "Heel pillow wrap cradles the Achilles tendon securely",
+            "Durable Adiwear rubber prevents wear on abrasive city roads"
+        ],
+        "trade_offs": [
+            "Moderate price tier (~\u20b95,999).",
+            "Cushioning is tuned for daily pace rather than sprint intervals."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 9499
+            },
+            {
+                "date": "60d ago",
+                "price": 6838
+            },
+            {
+                "date": "30d ago",
+                "price": 6358
+            },
+            {
+                "date": "15d ago",
+                "price": 6058
+            },
+            {
+                "date": "Current",
+                "price": 5999
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Adidas runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Adidas midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-adidas-response-runner": {
+        "canonical_id": "shoe-adidas-response-runner",
+        "title": "Adidas Response Runner Shoes (Lightweight EVA Cushioning, Mesh Upper)",
+        "brand": "Adidas",
+        "category": "running_shoes",
+        "subcategory": "Budget Daily Running",
+        "image": "https://images.unsplash.com/photo-1620138546344-7b2c38516edf?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Morning Walks, Casual 3km Jogging, Everyday Steps",
+            "Sole": "Full EVA Midsole with Rubber Traction Outsole",
+            "Material": "Lightweight Mesh with Heat-Pressed 3-Stripes",
+            "Weight": "260 g",
+            "Drop": "9 mm",
+            "Color": "Cloud White / Core Black",
+            "Terrain": "Road & Gym"
+        },
+        "base_score": 9.1,
+        "best_price": 1999,
+        "mrp": 3599,
+        "badge": "Budget Pick",
+        "score_reasons": [
+            "Authentic Adidas heritage priced under \u20b92,000",
+            "Featherlight 260g build keeps legs fresh throughout the day",
+            "Durable full-length rubber tread for daily walking"
+        ],
+        "trade_offs": [
+            "Basic EVA foam without premium energy return compounds.",
+            "Heel collar padding is standard."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 3419
+            },
+            {
+                "date": "60d ago",
+                "price": 2278
+            },
+            {
+                "date": "30d ago",
+                "price": 2118
+            },
+            {
+                "date": "15d ago",
+                "price": 2018
+            },
+            {
+                "date": "Current",
+                "price": 1999
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Adidas runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Adidas midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-asics-gel-cumulus-25": {
+        "canonical_id": "shoe-asics-gel-cumulus-25",
+        "title": "ASICS GEL-CUMULUS 25 Running Shoes For Men (Illusion Blue / Glow Yellow, PureGEL, FF BLAST+)",
+        "brand": "ASICS",
+        "category": "running_shoes",
+        "subcategory": "Road Running Shoes",
+        "image": "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Daily Road Running, 5km to Full Marathon, Neutral Striders",
+            "Sole": "FF BLAST PLUS Foam with Rearfoot PureGEL Impact Absorption",
+            "Material": "Engineered Jacquard Breathable Mesh with Reflective Accents",
+            "Weight": "260 g",
+            "Drop": "8 mm Heel-to-Toe Drop",
+            "Color": "Illusion Blue / Glow Yellow",
+            "Terrain": "Road, Pavement, Track"
+        },
+        "base_score": 9.8,
+        "best_price": 5279,
+        "mrp": 10999,
+        "badge": "Top Performance Runner",
+        "score_reasons": [
+            "PureGEL technology provides 65% softer impact landing than conventional GEL",
+            "FF BLAST PLUS midsole creates energetic, cloud-like toe-off bounce",
+            "Full-ground contact outsole geometry delivers smoother road transitions"
+        ],
+        "trade_offs": [
+            "Tailored for neutral pronation and mild underpronation."
+        ],
+        "price_history": [
+            {"date": "90d ago", "price": 9999},
+            {"date": "60d ago", "price": 8499},
+            {"date": "30d ago", "price": 6299},
+            {"date": "15d ago", "price": 5499},
+            {"date": "Current", "price": 5279}
+        ],
+        "sentiment": {
+            "positivePercentage": 97,
+            "neutralPercentage": 2,
+            "negativePercentage": 1,
+            "totalReviewsAnalyzed": 3796,
+            "topPros": ["Incredible cloud-like PureGEL cushioning", "Breathable upper stays cool", "Vibrant Illusion Blue colorway"],
+            "topCons": ["Slightly soft for heavy sprint workouts"],
+            "buyerVerdict": "Superb daily training shoe offering maximum comfort and shock absorption for long runs."
+        },
+        "buy_advice": "Buy Now - Lowest Price on Flipkart",
+        "offers": [
+            {
+                "provider": "Flipkart",
+                "price": 5279,
+                "original_price": 10999,
+                "currency": "INR",
+                "shipping": "Free Delivery (Tomorrow)",
+                "availability": "In Stock",
+                "source_url": "https://www.flipkart.com/asics-gel-cumulus-25-running-shoes-men/p/itm2a08944e0a7f1?pid=SHOGQGBMRMJYGCB8",
+                "rating": 4.4,
+                "review_count": 3796,
+                "store_badge": "Lowest Price",
+                "badges": ["Lowest Price", "Bank Offer: 5% Unlimited Cashback"]
+            },
+            {
+                "provider": "Amazon",
+                "price": 5499,
+                "original_price": 10999,
+                "currency": "INR",
+                "shipping": "Free Prime Delivery",
+                "availability": "In Stock",
+                "source_url": "https://www.amazon.in/dp/B0BY2H9YMR",
+                "rating": 4.4,
+                "review_count": 1820,
+                "store_badge": "Fastest Delivery",
+                "badges": ["Fastest Delivery"]
+            },
+            {
+                "provider": "Tata CLiQ",
+                "price": 5799,
+                "original_price": 10999,
+                "currency": "INR",
+                "shipping": "Free Express Delivery",
+                "availability": "In Stock",
+                "source_url": "https://www.tatacliq.com/asics-mens-gel-cumulus-25-running-shoes/p-mp000000018944111",
+                "rating": 4.3,
+                "review_count": 420,
+                "store_badge": "Authentic Seller",
+                "badges": ["Authentic Seller"]
+            },
+            {
+                "provider": "ASICS Official Store",
+                "price": 7999,
+                "original_price": 10999,
+                "currency": "INR",
+                "shipping": "Free Brand Delivery",
+                "availability": "In Stock",
+                "source_url": "https://www.asics.co.in/1011b621-402.html",
+                "rating": 4.6,
+                "review_count": 580,
+                "store_badge": "Official Flagship",
+                "badges": ["Official Flagship", "Direct Brand Warranty"]
+            }
+        ],
+        "score_breakdown": {
+            "price_match": 9.9,
+            "performance": 9.8,
+            "reviews": 9.7,
+            "delivery": 9.6,
+            "user_preference": 9.8
+        }
+    },
+    "shoe-asics-gel-1130": {
+        "canonical_id": "shoe-asics-gel-1130",
+        "title": "ASICS GEL-1130 Casuals / Running Shoes For Unisex (White / Pure Silver / Black)",
+        "brand": "ASICS",
+        "category": "running_shoes",
+        "subcategory": "Lifestyle & Casual Runners",
+        "image": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Lifestyle, Streetwear Casuals, Neutral All-Day Walking & Running",
+            "Sole": "GEL Technology Cushioning with TRUSSTIC Support System",
+            "Material": "Layered Open Mesh Underlays with Synthetic Leather Overlays",
+            "Weight": "335 g",
+            "Drop": "10 mm Heel Drop",
+            "Color": "White / Pure Silver / Black",
+            "Terrain": "Urban, Road, Everyday"
+        },        "base_score": 9.7,
+        "best_price": 4679,
+        "mrp": 8999,
+        "badge": "Iconic Retro Runner",
+        "score_reasons": [
+            "Late-2000s retro running aesthetic with signature GEL technology shock absorption",
+            "TRUSSTIC support unit provides midfoot stability for all-day comfort",
+            "Breathable mesh upper with sleek metallic silver synthetic overlays"
+        ],
+        "trade_offs": [
+            "Lifestyle retro runner tailored for style and daily cushioning rather than elite marathon pacing."
+        ],
+        "price_history": [
+            {"date": "90d ago", "price": 8999},
+            {"date": "60d ago", "price": 7999},
+            {"date": "30d ago", "price": 5999},
+            {"date": "15d ago", "price": 4999},
+            {"date": "Current", "price": 4679}
+        ],
+        "sentiment": {
+            "positivePercentage": 96,
+            "neutralPercentage": 3,
+            "negativePercentage": 1,
+            "totalReviewsAnalyzed": 2840,
+            "topPros": ["Super stylish late-2000s retro design", "All-day comfort with GEL shock absorption", "Breathable mesh stays comfortable"],
+            "topCons": ["Runs slightly snug on wide feet"],
+            "buyerVerdict": "Outstanding retro-modern casual sneaker with legendary ASICS GEL cushioning."
+        },
+        "buy_advice": "Buy Now - Lowest Price on Flipkart (₹4,679)",
+        "offers": [
+            {
+                "provider": "Flipkart",
+                "price": 4679,
+                "original_price": 8999,
+                "currency": "INR",
+                "shipping": "Free Delivery (Tomorrow)",
+                "availability": "In Stock",
+                "source_url": "https://www.flipkart.com/asics-gel-1130-casuals-unisex/p/itmd9fda833cb404",
+                "rating": 4.5,
+                "review_count": 2840,
+                "store_badge": "Lowest Price",
+                "badges": ["Lowest Price", "Bank Offer: ₹468 Off", "SuperCoins Eligible", "Free Delivery Tomorrow"],
+                "offer_terms": "Special Price 48% Off + Extra ₹468 off with Axis Bank Card (Net: ₹4,211)"
+            },
+            {
+                "provider": "Myntra",
+                "price": 5399,
+                "original_price": 8999,
+                "currency": "INR",
+                "shipping": "Free Delivery (2-3 Days)",
+                "availability": "In Stock",
+                "source_url": "https://www.myntra.com/asics-gel-1130",
+                "rating": 4.4,
+                "review_count": 890,
+                "store_badge": "Fashion Verified",
+                "badges": ["Fashion Verified", "Authentic Seller"],
+                "offer_terms": "Use Code MYNTRA400 for extra discount"
+            },
+            {
+                "provider": "Tata CLiQ",
+                "price": 5799,
+                "original_price": 8999,
+                "currency": "INR",
+                "shipping": "Free Express Delivery",
+                "availability": "In Stock",
+                "source_url": "https://www.tatacliq.com/asics-unisex-gel-1130-casuals/p-mp000000019283",
+                "rating": 4.3,
+                "review_count": 310,
+                "store_badge": "Genuine Store",
+                "badges": ["Genuine Store", "2-Day Delivery"],
+                "offer_terms": "100% Genuine Luxury Certified"
+            },
+            {
+                "provider": "Amazon",
+                "price": 5999,
+                "original_price": 8999,
+                "currency": "INR",
+                "shipping": "Free Prime Delivery",
+                "availability": "In Stock",
+                "source_url": "https://www.amazon.in/ASICS-Gel-1130-Casuals/dp/B0CK1130AS",
+                "rating": 4.4,
+                "review_count": 1420,
+                "store_badge": "Prime Delivery",
+                "badges": ["Prime Delivery", "Fastest Dispatch"],
+                "offer_terms": "Prime Guaranteed One-Day Delivery Included"
+            },
+            {
+                "provider": "ASICS Official Store",
+                "price": 8999,
+                "original_price": 8999,
+                "currency": "INR",
+                "shipping": "Free Brand Delivery",
+                "availability": "In Stock",
+                "source_url": "https://www.asics.co.in/gel-1130.html",
+                "rating": 4.8,
+                "review_count": 690,
+                "store_badge": "Official Flagship",
+                "badges": ["Official Flagship", "Direct Brand Warranty"],
+                "offer_terms": "OneASICS Member Benefits + Direct Brand Warranty"
+            }
+        ],
+        "score_breakdown": {
+            "price_match": 9.9,
+            "performance": 9.6,
+            "reviews": 9.7,
+            "delivery": 9.6,
+            "user_preference": 9.8
+        }
+    },
+    "shoe-asics-gel-courtmov": {
+        "canonical_id": "shoe-asics-gel-courtmov",
+        "title": "ASICS GEL-COURTMOV+ Tennis & Court Shoes For Men (Lightweight, Non-Marking Sole)",
+        "brand": "ASICS",
+        "category": "running_shoes",
+        "subcategory": "Tennis & Court Sports",
+        "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Tennis, Court Sports, Badminton, Hard Courts",
+            "Sole": "Forefoot GEL Cushioning with Non-Marking Gum Rubber",
+            "Material": "Reinforced Synthetic Leather Upper with Breathable Mesh Panels",
+            "Weight": "310 g",
+            "Drop": "8 mm Drop",
+            "Color": "White / Classic Blue / Gum",
+            "Terrain": "Hard Court, Indoor Wood, Clay"
+        },
+        "base_score": 9.5,
+        "best_price": 3499,
+        "mrp": 6999,
+        "badge": "Top Court Performance",
+        "score_reasons": [
+            "Forefoot GEL cushioning dampens rapid multi-directional court impacts",
+            "Durable toe bumper overlay protects against court drag during fast serves",
+            "Non-marking rubber outsole provides aggressive lateral grip on all courts"
+        ],
+        "trade_offs": [
+            "Tailored specifically for lateral stability and court traction rather than long road running."
+        ],
+        "price_history": [
+            {"date": "90d ago", "price": 6999},
+            {"date": "60d ago", "price": 5499},
+            {"date": "30d ago", "price": 4299},
+            {"date": "15d ago", "price": 3799},
+            {"date": "Current", "price": 3499}
+        ],
+        "sentiment": {
+            "positivePercentage": 95,
+            "neutralPercentage": 4,
+            "negativePercentage": 1,
+            "totalReviewsAnalyzed": 1420,
+            "topPros": ["Superb court grip", "GEL absorbs heavy landings well", "Great value at 50% discount"],
+            "topCons": ["Slightly stiff break-in for first couple days"],
+            "buyerVerdict": "Excellent value court shoe offering unmatched lateral grip and shock protection."
+        },
+        "buy_advice": "Buy Now - Lowest Price on Flipkart (₹3,499 - 50% Off)",
+        "offers": [
+            {
+                "provider": "Flipkart",
+                "price": 3499,
+                "original_price": 6999,
+                "currency": "INR",
+                "shipping": "Free Delivery (Tomorrow)",
+                "availability": "In Stock",
+                "source_url": "https://www.flipkart.com/asics-gel-courtmov-tennis-shoes-men/p/itm810e57871e1cb",
+                "rating": 4.4,
+                "review_count": 1420,
+                "store_badge": "Lowest Price",
+                "badges": ["Lowest Price", "50% Off", "Free Delivery"],
+                "offer_terms": "Hot Deal 50% Off + Axis Bank 5% Cashback"
+            },
+            {
+                "provider": "Amazon",
+                "price": 3899,
+                "original_price": 6999,
+                "currency": "INR",
+                "shipping": "Free Prime Delivery",
+                "availability": "In Stock",
+                "source_url": "https://www.amazon.in/dp/B0CKCOURTMOV",
+                "rating": 4.3,
+                "review_count": 680,
+                "store_badge": "Prime Delivery",
+                "badges": ["Prime Delivery"],
+                "offer_terms": "Prime Next-Day Delivery"
+            },
+            {
+                "provider": "Myntra",
+                "price": 3999,
+                "original_price": 6999,
+                "currency": "INR",
+                "shipping": "Free Delivery",
+                "availability": "In Stock",
+                "source_url": "https://www.myntra.com/asics-courtmov",
+                "rating": 4.3,
+                "review_count": 420,
+                "store_badge": "Verified",
+                "badges": ["Verified Seller"],
+                "offer_terms": "Authentic Sports Gear"
+            },
+            {
+                "provider": "ASICS Official Store",
+                "price": 6999,
+                "original_price": 6999,
+                "currency": "INR",
+                "shipping": "Free Delivery",
+                "availability": "In Stock",
+                "source_url": "https://www.asics.co.in/gel-courtmov.html",
+                "rating": 4.7,
+                "review_count": 310,
+                "store_badge": "Official Flagship",
+                "badges": ["Official Flagship"],
+                "offer_terms": "Official Brand Stock & Warranty"
+            }
+        ],
+        "score_breakdown": {
+            "price_match": 9.9,
+            "performance": 9.5,
+            "reviews": 9.4,
+            "delivery": 9.5,
+            "user_preference": 9.6
+        }
+    },
+    "shoe-asics-gel-pulse-16": {
+        "canonical_id": "shoe-asics-gel-pulse-16",
+        "title": "ASICS GEL-PULSE 16 Road Running Shoes For Men (PureGEL, FLYTEFOAM Cushioning)",
+        "brand": "ASICS",
+        "category": "running_shoes",
+        "subcategory": "Road Running Shoes",
+        "image": "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Daily Road Running, 5km to 15km, Neutral Striders",
+            "Sole": "Rearfoot PureGEL Cushioning with Full FLYTEFOAM Midsole",
+            "Material": "Engineered Jacquard Air Mesh Upper",
+            "Weight": "270 g",
+            "Drop": "8 mm Heel Drop",
+            "Color": "Carrier Grey / Pure Silver",
+            "Terrain": "Road, Track, Treadmill"
+        },
+        "base_score": 9.6,
+        "best_price": 4679,
+        "mrp": 8999,
+        "badge": "Top Comfort Daily Trainer",
+        "score_reasons": [
+            "PureGEL technology offers softer, lighter impact landings on road surfaces",
+            "FLYTEFOAM cushioning delivers continuous underfoot energy return",
+            "AHARPLUS high-abrasion rubber heel plug increases shoe longevity"
+        ],
+        "trade_offs": [
+            "Optimized for smooth neutral footstrike rather than intense overpronation correction."
+        ],
+        "price_history": [
+            {"date": "90d ago", "price": 8999},
+            {"date": "60d ago", "price": 7499},
+            {"date": "30d ago", "price": 5499},
+            {"date": "15d ago", "price": 4999},
+            {"date": "Current", "price": 4679}
+        ],
+        "sentiment": {
+            "positivePercentage": 96,
+            "neutralPercentage": 3,
+            "negativePercentage": 1,
+            "totalReviewsAnalyzed": 1890,
+            "topPros": ["PureGEL cushioning is very soft", "Breathable jacquard mesh", "Great everyday mileage runner"],
+            "topCons": ["Narrow toe box for extra wide feet"],
+            "buyerVerdict": "Superb daily training shoe offering exceptional PureGEL comfort and high durability."
+        },
+        "buy_advice": "Buy Now - Lowest Price on Flipkart (₹4,679 - 48% Off)",
+        "offers": [
+            {
+                "provider": "Flipkart",
+                "price": 4679,
+                "original_price": 8999,
+                "currency": "INR",
+                "shipping": "Free Delivery (Tomorrow)",
+                "availability": "In Stock",
+                "source_url": "https://www.flipkart.com/asics-gel-pulse-16-running-shoes-men/p/itmc35fc29314942",
+                "rating": 4.5,
+                "review_count": 1890,
+                "store_badge": "Lowest Price",
+                "badges": ["Lowest Price", "Bank Offer", "Free Delivery Tomorrow"],
+                "offer_terms": "Special Price 48% Off + Extra Bank Card Discount"
+            },
+            {
+                "provider": "Amazon",
+                "price": 5199,
+                "original_price": 8999,
+                "currency": "INR",
+                "shipping": "Free Prime Delivery",
+                "availability": "In Stock",
+                "source_url": "https://www.amazon.in/dp/B0CKPULSE16",
+                "rating": 4.4,
+                "review_count": 870,
+                "store_badge": "Prime Delivery",
+                "badges": ["Prime Delivery"],
+                "offer_terms": "Prime Free Delivery"
+            },
+            {
+                "provider": "Tata CLiQ",
+                "price": 5499,
+                "original_price": 8999,
+                "currency": "INR",
+                "shipping": "Free Delivery",
+                "availability": "In Stock",
+                "source_url": "https://www.tatacliq.com/asics-gel-pulse-16/p-mp000000019999",
+                "rating": 4.3,
+                "review_count": 210,
+                "store_badge": "Verified Store",
+                "badges": ["Verified Store"],
+                "offer_terms": "CliQ Style Certified"
+            },
+            {
+                "provider": "ASICS Official Store",
+                "price": 8999,
+                "original_price": 8999,
+                "currency": "INR",
+                "shipping": "Free Delivery",
+                "availability": "In Stock",
+                "source_url": "https://www.asics.co.in/gel-pulse-16.html",
+                "rating": 4.8,
+                "review_count": 420,
+                "store_badge": "Official Flagship",
+                "badges": ["Official Flagship"],
+                "offer_terms": "Direct Brand Air Freight"
+            }
+        ],
+        "score_breakdown": {
+            "price_match": 9.9,
+            "performance": 9.7,
+            "reviews": 9.6,
+            "delivery": 9.6,
+            "user_preference": 9.7
+        }
+    },
+    "shoe-asics-gel-jadeite-3": {
+        "canonical_id": "shoe-asics-gel-jadeite-3",
+        "title": "ASICS GEL-JADEITE 3 Running Shoes For Men (GEL Cushioning, FlyteFoam Midsole)",
+        "brand": "ASICS",
+        "category": "running_shoes",
+        "subcategory": "Daily Road Running",
+        "image": "https://images.unsplash.com/photo-1579338559194-a162d19bf842?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Daily Road Running, 5km to Half Marathon, Neutral Striders",
+            "Sole": "Rearfoot GEL Cushioning Unit + FlyteFoam Propel Midsole",
+            "Material": "Engineered Breathable Jacquard Mesh Upper",
+            "Weight": "282 g",
+            "Drop": "10 mm",
+            "Color": "White / Island Blue / Mint Green",
+            "Terrain": "Road & Pavement"
+        },
+        "base_score": 9.6,
+        "best_price": 4799,
+        "mrp": 6999,
+        "badge": "Best for You",
+        "score_reasons": [
+            "ASICS Rearfoot GEL technology absorbs maximum road impact on pavement",
+            "FlyteFoam Propel midsole delivers high energy return with low weight",
+            "Breathable Jacquard mesh keeps feet cool during intense Indian humid weather"
+        ],
+        "trade_offs": [
+            "Priced slightly above entry-level shoes, but offers genuine GEL shock absorption."
+        ],
+        "price_history": [
+            {"date": "90d ago", "price": 6499},
+            {"date": "60d ago", "price": 5999},
+            {"date": "30d ago", "price": 5299},
+            {"date": "15d ago", "price": 4999},
+            {"date": "Current", "price": 4799}
+        ],
+        "sentiment": {
+            "positivePercentage": 93,
+            "neutralPercentage": 5,
+            "negativePercentage": 2,
+            "totalReviewsAnalyzed": 4820,
+            "topPros": ["Superb knee shock absorption", "Very breathable mesh", "Durable AHAR+ outsole"],
+            "topCons": ["Slightly narrow toe box for wide feet"],
+            "buyerVerdict": "Exceptional value for runners looking for genuine ASICS GEL cushioning under ₹5,000."
+        },
+        "buy_advice": "Buy Now",
+        "offers": [
+            {
+                "provider": "Flipkart",
+                "price": 4799,
+                "original_price": 6999,
+                "currency": "INR",
+                "shipping": "Free Express Delivery (Plus)",
+                "availability": "In Stock",
+                "source_url": "https://www.flipkart.com",
+                "rating": 4.7,
+                "review_count": 4820,
+                "store_badge": "Lowest Price",
+                "badges": ["Lowest Price", "Bank Offer: 10% Off"]
+            },
+            {
+                "provider": "Amazon",
+                "price": 4899,
+                "original_price": 6999,
+                "currency": "INR",
+                "shipping": "Free Prime Delivery Tomorrow",
+                "availability": "In Stock",
+                "source_url": "https://www.amazon.in",
+                "rating": 4.6,
+                "review_count": 3120,
+                "store_badge": "Prime Delivery",
+                "badges": ["Fast Delivery"]
+            },
+            {
+                "provider": "ASICS Official Store",
+                "price": 4999,
+                "original_price": 6999,
+                "currency": "INR",
+                "shipping": "Brand Courier",
+                "availability": "In Stock",
+                "source_url": "https://www.asics.co.in",
+                "rating": 4.9,
+                "review_count": 1850,
+                "store_badge": "Official Store",
+                "badges": ["100% Genuine Warranty"]
+            },
+            {
+                "provider": "Myntra",
+                "price": 4899,
+                "original_price": 6999,
+                "currency": "INR",
+                "shipping": "Free Delivery (2 Days)",
+                "availability": "In Stock",
+                "source_url": "https://www.myntra.com",
+                "rating": 4.5,
+                "review_count": 920,
+                "store_badge": "Verified Retailer",
+                "badges": ["Coupon SAVE500"]
+            }
+        ],
+        "fastest_delivery": "Tomorrow",
+        "rating": 4.7,
+        "review_count": 4820,
+        "score_breakdown": {
+            "price_match": 9.6,
+            "performance": 9.6,
+            "reviews": 9.5,
+            "delivery": 9.6,
+            "user_preference": 9.6
+        }
+    },
+    "shoe-asics-gel-contend-8b": {
+        "canonical_id": "shoe-asics-gel-contend-8b",
+        "title": "ASICS Gel-Contend 8B Running Shoes (Rearfoot GEL Technology, AmpliFoam)",
+        "brand": "ASICS",
+        "category": "running_shoes",
+        "subcategory": "Neutral Road Running",
+        "image": "https://images.unsplash.com/photo-1588117260148-b47818741c74?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Daily Running, Neutral Foot Striders, Heel-Striker Joint Protection",
+            "Sole": "Rearfoot GEL Cushioning Unit + AmpliFoam Midsole",
+            "Material": "Jacquard Breathable Mesh with Internal Heel Counter",
+            "Weight": "278 g",
+            "Drop": "10 mm",
+            "Color": "French Blue / Electric Lime",
+            "Terrain": "Road, Track, Pavement"
+        },
+        "base_score": 9.5,
+        "best_price": 3399,
+        "mrp": 4999,
+        "badge": "Best Joint Protection",
+        "score_reasons": [
+            "ASICS proprietary Rearfoot GEL absorbs shock and reduces knee impact on pavement",
+            "Internal heel counter locks the calcaneus bone firmly to eliminate ankle roll",
+            "Solid AmpliFoam compound offers longevity far exceeding basic EVA"
+        ],
+        "trade_offs": [
+            "Rearfoot GEL focuses shock protection at the heel; midfoot runners feel less bounce.",
+            "Classic ASICS aesthetics may feel traditional to minimalist runners."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 4749
+            },
+            {
+                "date": "60d ago",
+                "price": 3874
+            },
+            {
+                "date": "30d ago",
+                "price": 3602
+            },
+            {
+                "date": "15d ago",
+                "price": 3432
+            },
+            {
+                "date": "Current",
+                "price": 3399
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified ASICS runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine ASICS midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-asics-jolt-4": {
+        "canonical_id": "shoe-asics-jolt-4",
+        "title": "ASICS Jolt 4 Daily Road Running Shoes (AmpliFoam Cushioning, Stitched Toe Cap)",
+        "brand": "ASICS",
+        "category": "running_shoes",
+        "subcategory": "Daily Road Running",
+        "image": "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Daily 5km Jogging, Fitness Walking, Weekend 10ks",
+            "Sole": "AmpliFoam Shock Absorber with Solid Rubber Outsole",
+            "Material": "Engineered Mesh with Stitched Synthetic Overlays",
+            "Weight": "268 g",
+            "Drop": "10 mm",
+            "Color": "Black / White / Hazard Green",
+            "Terrain": "Road & Paved Paths"
+        },
+        "base_score": 9.3,
+        "best_price": 2699,
+        "mrp": 3999,
+        "badge": "Best Value",
+        "score_reasons": [
+            "Stitched toe cap reinforcement prevents mesh tearing from toe friction",
+            "AmpliFoam cushioning provides balanced durability without bottoming out",
+            "Sub-\u20b93,000 price point makes genuine ASICS engineering accessible"
+        ],
+        "trade_offs": [
+            "Does not feature the flagship silicone GEL unit found in the Contend/Nimbus line.",
+            "Sole is slightly firm out of the box until 20km break-in."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 3799
+            },
+            {
+                "date": "60d ago",
+                "price": 3076
+            },
+            {
+                "date": "30d ago",
+                "price": 2860
+            },
+            {
+                "date": "15d ago",
+                "price": 2725
+            },
+            {
+                "date": "Current",
+                "price": 2699
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified ASICS runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine ASICS midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-asics-gel-nimbus-26": {
+        "canonical_id": "shoe-asics-gel-nimbus-26",
+        "title": "ASICS Gel-Nimbus 26 Premium Maximum Cushioning Road Running Shoes",
+        "brand": "ASICS",
+        "category": "running_shoes",
+        "subcategory": "Max Cushion Daily Trainer",
+        "image": "https://images.unsplash.com/photo-1597045566677-8cf032ed6634?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Long Recovery Runs, Half/Full Marathon Training, Maximum Joint Protection",
+            "Sole": "FF BLAST PLUS ECO Cushioning with PureGEL Technology",
+            "Material": "Engineered Knit Upper with Soft Stretchy Knit Collar",
+            "Weight": "304 g",
+            "Drop": "8 mm",
+            "Color": "Black / Pure Silver",
+            "Terrain": "Road & Pavement"
+        },
+        "base_score": 9.7,
+        "best_price": 13899,
+        "mrp": 16999,
+        "badge": "Max Cushion",
+        "score_reasons": [
+            "Unrivaled maximum cushioning cloud feel for long 15km-30km distance training",
+            "PureGEL silicone inserts provide 65% softer landings than standard EVA",
+            "Engineered knit collar creates a glove-like premium ankle wrap"
+        ],
+        "trade_offs": [
+            "Premium price point (\u20b913,899).",
+            "Slightly heavier stack (304g) designed for comfort over tempo racing."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 16149
+            },
+            {
+                "date": "60d ago",
+                "price": 15844
+            },
+            {
+                "date": "30d ago",
+                "price": 14732
+            },
+            {
+                "date": "15d ago",
+                "price": 14037
+            },
+            {
+                "date": "Current",
+                "price": 13899
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified ASICS runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine ASICS midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-asics-gt-1000-12": {
+        "canonical_id": "shoe-asics-gt-1000-12",
+        "title": "ASICS GT-1000 12 Pronation Stability Running Shoes (LITETRUSS, FlyteFoam)",
+        "brand": "ASICS",
+        "category": "running_shoes",
+        "subcategory": "Stability & Joint Support",
+        "image": "https://images.unsplash.com/photo-1520256862855-398228c41684?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Daily Running for Over-Pronators, Flat Feet, Ankle Joint Support",
+            "Sole": "LITETRUSS Medial Support + Rearfoot GEL + FlyteFoam",
+            "Material": "Engineered Mesh with External Heel Clutch",
+            "Weight": "270 g",
+            "Drop": "8 mm",
+            "Color": "Sheet Rock / Pure Silver",
+            "Terrain": "Road & Pavement"
+        },
+        "base_score": 9.5,
+        "best_price": 5999,
+        "mrp": 8999,
+        "badge": "Over-Pronation Fix",
+        "score_reasons": [
+            "LITETRUSS system prevents inward foot rolling and knee strain",
+            "FlyteFoam compound stays resilient and lightweight",
+            "Recommended by physical therapists for runners with flat arches"
+        ],
+        "trade_offs": [
+            "Slightly firmer medial arch side to prevent collapse.",
+            "Not needed for runners with neutral or high arches."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 8549
+            },
+            {
+                "date": "60d ago",
+                "price": 6838
+            },
+            {
+                "date": "30d ago",
+                "price": 6358
+            },
+            {
+                "date": "15d ago",
+                "price": 6058
+            },
+            {
+                "date": "Current",
+                "price": 5999
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified ASICS runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine ASICS midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-asics-gel-kayano-30": {
+        "canonical_id": "shoe-asics-gel-kayano-30",
+        "title": "ASICS Gel-Kayano 30 Flagship Stability Marathon Shoes (4D Guidance System)",
+        "brand": "ASICS",
+        "category": "running_shoes",
+        "subcategory": "Flagship Stability",
+        "image": "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Full Marathon Distance, Maximum Stability, Extreme Joint Relief",
+            "Sole": "4D Guidance System + PureGEL + FF BLAST PLUS ECO (40mm Stack)",
+            "Material": "Stretch Engineered Knit with Padded Tongue",
+            "Weight": "303 g",
+            "Drop": "10 mm",
+            "Color": "Black / Glow Yellow",
+            "Terrain": "Road & Asphalt"
+        },
+        "base_score": 9.8,
+        "best_price": 12499,
+        "mrp": 15999,
+        "badge": "Flagship Stability",
+        "score_reasons": [
+            "Revolutionary 4D Guidance System dynamically corrects stride as leg fatigue sets in",
+            "Deep FF BLAST PLUS ECO stack absorbs 70% of road vibration",
+            "The undisputed king of long-distance stability running in the world"
+        ],
+        "trade_offs": [
+            "Flagship price investment (\u20b912,499).",
+            "High stack is built for protection, not sprint track spikes."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 15199
+            },
+            {
+                "date": "60d ago",
+                "price": 14248
+            },
+            {
+                "date": "30d ago",
+                "price": 13248
+            },
+            {
+                "date": "15d ago",
+                "price": 12623
+            },
+            {
+                "date": "Current",
+                "price": 12499
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified ASICS runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine ASICS midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-asics-patriot-13": {
+        "canonical_id": "shoe-asics-patriot-13",
+        "title": "ASICS Patriot 13 Road Running Shoes (EVA Cushioning, Mesh Upper)",
+        "brand": "ASICS",
+        "category": "running_shoes",
+        "subcategory": "Budget Daily Running",
+        "image": "https://images.unsplash.com/photo-1552346154-21d32810aba3?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Daily 3k-5k Running, Morning Jogging, Treadmill",
+            "Sole": "Bouncy EVA Midsole with Full Molded Rubber Outsole",
+            "Material": "Breathable Mesh Upper with Reinforced Eyelets",
+            "Weight": "260 g",
+            "Drop": "10 mm",
+            "Color": "Directoire Blue / White",
+            "Terrain": "Road & Park Track"
+        },
+        "base_score": 9.2,
+        "best_price": 2299,
+        "mrp": 3499,
+        "badge": "Budget Pick",
+        "score_reasons": [
+            "Entry ASICS road shoe priced at an accessible \u20b92,299",
+            "Reinforced stitching on toe seams prevents mesh splitting",
+            "Full rubber outsole delivers predictable traction in dust and moisture"
+        ],
+        "trade_offs": [
+            "Does not have silicone GEL pads.",
+            "Cushioning is firmer out of the box."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 3324
+            },
+            {
+                "date": "60d ago",
+                "price": 2620
+            },
+            {
+                "date": "30d ago",
+                "price": 2436
+            },
+            {
+                "date": "15d ago",
+                "price": 2321
+            },
+            {
+                "date": "Current",
+                "price": 2299
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified ASICS runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine ASICS midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-campus-north-plus": {
+        "canonical_id": "shoe-campus-north-plus",
+        "title": "Campus North Plus Men's Running Shoes (PilloFoam Cushioning, Anti-Skid Phylon)",
+        "brand": "Campus",
+        "category": "running_shoes",
+        "subcategory": "Budget Daily Running",
+        "image": "https://images.unsplash.com/photo-1533681904393-9ab6eee7e408?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Daily 3k-5k Running, Morning Walks, High Durability",
+            "Sole": "PilloFoam Shock Absorption with Anti-Skid Phylon Outsole",
+            "Material": "High-Density Breathable Knitted Upper",
+            "Weight": "265 g",
+            "Drop": "9 mm",
+            "Color": "Triple Black / Neon Accent",
+            "Terrain": "Rough Tarmac, Concrete, Dirt Tracks"
+        },
+        "base_score": 9.1,
+        "best_price": 1399,
+        "mrp": 2299,
+        "badge": "Cheapest",
+        "score_reasons": [
+            "Priced under \u20b91,500 making it the most affordable daily road runner",
+            "Phylon sole withstands uneven stones and rough Indian roads without puncture",
+            "Machine washable with quick-drying breathable knit"
+        ],
+        "trade_offs": [
+            "Foam is less bouncy on high-speed sprint workouts.",
+            "Insole lacks premium arch contouring for severe over-pronators."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 2184
+            },
+            {
+                "date": "60d ago",
+                "price": 1594
+            },
+            {
+                "date": "30d ago",
+                "price": 1482
+            },
+            {
+                "date": "15d ago",
+                "price": 1412
+            },
+            {
+                "date": "Current",
+                "price": 1399
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Campus runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Campus midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-campus-ogs-runner": {
+        "canonical_id": "shoe-campus-ogs-runner",
+        "title": "Campus OGS Lightweight Daily Running Shoes (Adaptive Fit, Nitrofly Sole)",
+        "brand": "Campus",
+        "category": "running_shoes",
+        "subcategory": "Budget Daily Running",
+        "image": "https://images.unsplash.com/photo-1603808033192-082d6919d3e1?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Daily Road Jogging, Gym, College & Running",
+            "Sole": "Nitrofly Lightweight EVA Outsole",
+            "Material": "Knitted Stretch Mesh Upper",
+            "Weight": "248 g",
+            "Drop": "8 mm",
+            "Color": "Slate Grey / Bright Orange",
+            "Terrain": "Road & Gym Floor"
+        },
+        "base_score": 9.0,
+        "best_price": 1199,
+        "mrp": 1999,
+        "badge": "Cheapest",
+        "score_reasons": [
+            "Incredible price point at \u20b91,199",
+            "Sub-250g construction provides remarkable agility",
+            "Sock-like collar fits snugly around ankle with zero hot spots"
+        ],
+        "trade_offs": [
+            "Outsole has no rubber pods; sole wear occurs faster on abrasive roads.",
+            "Designed for sub-5km distances rather than half marathons."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 1899
+            },
+            {
+                "date": "60d ago",
+                "price": 1366
+            },
+            {
+                "date": "30d ago",
+                "price": 1270
+            },
+            {
+                "date": "15d ago",
+                "price": 1210
+            },
+            {
+                "date": "Current",
+                "price": 1199
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Campus runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Campus midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-campus-first-running": {
+        "canonical_id": "shoe-campus-first-running",
+        "title": "Campus First Men's Road Running Shoes (Springy Phylon Cushion, Mesh Upper)",
+        "brand": "Campus",
+        "category": "running_shoes",
+        "subcategory": "Daily Road Running",
+        "image": "https://images.unsplash.com/photo-1543508282-6319a3e2621f?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Daily 5km Cardio, Morning Jogging, Fitness",
+            "Sole": "High-Density Springy Phylon Sole with Grip Pods",
+            "Material": "Mesh Upper with Moulded TPU Heel Counter",
+            "Weight": "270 g",
+            "Drop": "9 mm",
+            "Color": "Navy Blue / Sky Blue",
+            "Terrain": "Road & Concrete"
+        },
+        "base_score": 9.1,
+        "best_price": 1499,
+        "mrp": 2499,
+        "badge": "Best Value",
+        "score_reasons": [
+            "Moulded TPU heel cage keeps foot locked in place during runs",
+            "Resilient Phylon foam absorbs heavy heel strikes without flattening",
+            "Great looks and rugged reliability under \u20b91,500"
+        ],
+        "trade_offs": [
+            "Slightly firm ride for runners wanting cloud-like bounce.",
+            "Heavier than minimalist shoes."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 2374
+            },
+            {
+                "date": "60d ago",
+                "price": 1708
+            },
+            {
+                "date": "30d ago",
+                "price": 1588
+            },
+            {
+                "date": "15d ago",
+                "price": 1513
+            },
+            {
+                "date": "Current",
+                "price": 1499
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Campus runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Campus midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-campus-dragon-sneaker": {
+        "canonical_id": "shoe-campus-dragon-sneaker",
+        "title": "Campus Dragon Running Shoes with Air Capsule Tech (Bounce Bubble, Mesh)",
+        "brand": "Campus",
+        "category": "running_shoes",
+        "subcategory": "Air Cushion Running",
+        "image": "https://images.unsplash.com/photo-1597248881519-db089d3744a5?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Daily Running, Gym, Casual Athleisure",
+            "Sole": "Translucent Air Capsule in Heel with Anti-Skid Rubber",
+            "Material": "Sublimated Knitted Mesh Upper",
+            "Weight": "285 g",
+            "Drop": "10 mm",
+            "Color": "Black / Metallic Gold / Red",
+            "Terrain": "Road & Gym"
+        },
+        "base_score": 9.2,
+        "best_price": 1699,
+        "mrp": 2799,
+        "badge": "Air Capsule",
+        "score_reasons": [
+            "Visible air cushion pod in the heel provides noticeable shock absorption",
+            "Attractive sporty design with metallic accents",
+            "Sub-\u20b91,700 pricing makes air-sole technology affordable"
+        ],
+        "trade_offs": [
+            "Air capsule is tuned for moderate jogging, not 20km long runs.",
+            "Weight is 285g."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 2659
+            },
+            {
+                "date": "60d ago",
+                "price": 1936
+            },
+            {
+                "date": "30d ago",
+                "price": 1800
+            },
+            {
+                "date": "15d ago",
+                "price": 1715
+            },
+            {
+                "date": "Current",
+                "price": 1699
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Campus runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Campus midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-campus-rodeo-pro": {
+        "canonical_id": "shoe-campus-rodeo-pro",
+        "title": "Campus Rodeo Pro Lightweight Jogging Shoes (Memory Tech Insole)",
+        "brand": "Campus",
+        "category": "running_shoes",
+        "subcategory": "Budget Daily Running",
+        "image": "https://images.unsplash.com/photo-1612902377756-414b2139d5e2?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Daily 3km Runs, Morning Walks, High Reps",
+            "Sole": "Lightweight Injection EVA Sole",
+            "Material": "Breathable Polyester Mesh",
+            "Weight": "240 g",
+            "Drop": "8 mm",
+            "Color": "Dark Grey / Orange",
+            "Terrain": "Road & Park Tracks"
+        },
+        "base_score": 9.0,
+        "best_price": 1099,
+        "mrp": 1799,
+        "badge": "Cheapest",
+        "score_reasons": [
+            "Ultra-budget option priced near \u20b91,000",
+            "Featherweight 240g build allows nimble movement",
+            "Breathable mesh keeps feet cool in hot weather"
+        ],
+        "trade_offs": [
+            "Sole life is ~350km on rough tarmac.",
+            "Minimalist arch support."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 1709
+            },
+            {
+                "date": "60d ago",
+                "price": 1252
+            },
+            {
+                "date": "30d ago",
+                "price": 1164
+            },
+            {
+                "date": "15d ago",
+                "price": 1109
+            },
+            {
+                "date": "Current",
+                "price": 1099
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Campus runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Campus midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-campus-hurricane": {
+        "canonical_id": "shoe-campus-hurricane",
+        "title": "Campus Hurricane Running Shoes (Tubular Cushioning, Phylon Outsole)",
+        "brand": "Campus",
+        "category": "running_shoes",
+        "subcategory": "Daily Road Running",
+        "image": "https://images.unsplash.com/photo-1534653299134-96a171b61581?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Daily 5km Jogging, Fitness Walks",
+            "Sole": "Tubular Hollow-Sole Cushioning Phylon",
+            "Material": "Jacquard Weave Mesh Upper",
+            "Weight": "260 g",
+            "Drop": "9 mm",
+            "Color": "All Black / Lime",
+            "Terrain": "Road & Tarmac"
+        },
+        "base_score": 9.1,
+        "best_price": 1299,
+        "mrp": 2199,
+        "badge": "Cheapest",
+        "score_reasons": [
+            "Hollow tubular sole compresses and springs back on impact",
+            "Durable tread withstands abrasive pavements",
+            "Great styling and comfort at \u20b91,299"
+        ],
+        "trade_offs": [
+            "Sole cavity can catch small pebbles on dirt roads.",
+            "Moderate flexibility."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 2089
+            },
+            {
+                "date": "60d ago",
+                "price": 1480
+            },
+            {
+                "date": "30d ago",
+                "price": 1376
+            },
+            {
+                "date": "15d ago",
+                "price": 1311
+            },
+            {
+                "date": "Current",
+                "price": 1299
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Campus runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Campus midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-sparx-sm-678": {
+        "canonical_id": "shoe-sparx-sm-678",
+        "title": "Sparx SM-678 High Durability Road Running Shoes (TPR Traction Outsole)",
+        "brand": "Sparx",
+        "category": "running_shoes",
+        "subcategory": "Rugged Road Running",
+        "image": "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Outdoor Road Running, Rough Tarmac, Daily Morning Cardio",
+            "Sole": "Dual-Density EVA Midsole with TPR Rubber Outsole",
+            "Material": "Reinforced Synthetic Mesh with Toe Guard",
+            "Weight": "295 g",
+            "Drop": "10 mm",
+            "Color": "Navy Blue / Fluorescent Yellow",
+            "Terrain": "All-Terrain (Road, Gravel, Dirt)"
+        },
+        "base_score": 9.0,
+        "best_price": 1199,
+        "mrp": 1699,
+        "badge": "Rugged Durability",
+        "score_reasons": [
+            "Unbeatable rugged durability for Indian conditions (survives gravel and water)",
+            "TPR rubber outsole provides firm grip on wet asphalt and dust",
+            "Extremely budget friendly at \u20b91,199"
+        ],
+        "trade_offs": [
+            "Slightly heavier (295g) with firmer ride.",
+            "Breathability is moderate compared to open-cell knit uppers."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 1614
+            },
+            {
+                "date": "60d ago",
+                "price": 1366
+            },
+            {
+                "date": "30d ago",
+                "price": 1270
+            },
+            {
+                "date": "15d ago",
+                "price": 1210
+            },
+            {
+                "date": "Current",
+                "price": 1199
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Sparx runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Sparx midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-sparx-sm-734": {
+        "canonical_id": "shoe-sparx-sm-734",
+        "title": "Sparx SM-734 High-Grip Road Running Shoes (Phylon Midsole, Slip-Resistant)",
+        "brand": "Sparx",
+        "category": "running_shoes",
+        "subcategory": "Rugged Road Running",
+        "image": "https://images.unsplash.com/photo-1549298916-f52d724204b4?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Daily 5km Running, Rough Surfaces, Concrete Walks",
+            "Sole": "Cushioned Phylon Midsole with Rubber Outsole Lugs",
+            "Material": "Mesh with Synthetic Leather Support Straps",
+            "Weight": "290 g",
+            "Drop": "9.5 mm",
+            "Color": "Black / Electric Blue",
+            "Terrain": "Road & Dirt Track"
+        },
+        "base_score": 9.1,
+        "best_price": 1399,
+        "mrp": 1899,
+        "badge": "Rugged Value",
+        "score_reasons": [
+            "Phylon sole absorbs shocks on uneven village and city pavements",
+            "Stitched synthetic leather overlays provide superior lateral hold",
+            "Extremely durable under \u20b91,400"
+        ],
+        "trade_offs": [
+            "Runs slightly firm until 2 weeks of use.",
+            "Weight is around 290g."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 1804
+            },
+            {
+                "date": "60d ago",
+                "price": 1594
+            },
+            {
+                "date": "30d ago",
+                "price": 1482
+            },
+            {
+                "date": "15d ago",
+                "price": 1412
+            },
+            {
+                "date": "Current",
+                "price": 1399
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Sparx runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Sparx midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-sparx-sm-648": {
+        "canonical_id": "shoe-sparx-sm-648",
+        "title": "Sparx SM-648 Lightweight Running Shoes (Soft EVA Sole, Mesh Upper)",
+        "brand": "Sparx",
+        "category": "running_shoes",
+        "subcategory": "Budget Daily Running",
+        "image": "https://images.unsplash.com/photo-1618677831708-0e7fda3148b4?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Daily Morning Jogging, Walking, Fitness",
+            "Sole": "Injection EVA Lightweight Sole",
+            "Material": "Breathable Fabric Knit",
+            "Weight": "250 g",
+            "Drop": "8.5 mm",
+            "Color": "Grey / Orange",
+            "Terrain": "Road & Park Tracks"
+        },
+        "base_score": 9.0,
+        "best_price": 999,
+        "mrp": 1499,
+        "badge": "Sub-\u20b91,000 Pick",
+        "score_reasons": [
+            "Best runner under \u20b91,000 from a trusted Indian brand",
+            "Featherweight 250g build with good breathability",
+            "Easy to clean and maintain"
+        ],
+        "trade_offs": [
+            "EVA sole without rubber pods wears faster on gravel.",
+            "Thin insole."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 1424
+            },
+            {
+                "date": "60d ago",
+                "price": 1138
+            },
+            {
+                "date": "30d ago",
+                "price": 1058
+            },
+            {
+                "date": "15d ago",
+                "price": 1008
+            },
+            {
+                "date": "Current",
+                "price": 999
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Sparx runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Sparx midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-sparx-sm-800": {
+        "canonical_id": "shoe-sparx-sm-800",
+        "title": "Sparx SM-800 Performance Road Running Shoes (Dual-Density Phylon, TPU Shank)",
+        "brand": "Sparx",
+        "category": "running_shoes",
+        "subcategory": "Daily Road Running",
+        "image": "https://images.unsplash.com/photo-1628253747716-0c4f5c90fdda?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Daily 5k-10k Running, Treadmill, Road",
+            "Sole": "Dual-Density Phylon Foam with Arch TPU Stabilizer",
+            "Material": "Jacquard Breathable Mesh",
+            "Weight": "280 g",
+            "Drop": "9 mm",
+            "Color": "Triple Black / Neon Green",
+            "Terrain": "Road & Tarmac"
+        },
+        "base_score": 9.2,
+        "best_price": 1599,
+        "mrp": 2199,
+        "badge": "Best Value",
+        "score_reasons": [
+            "TPU shank under midfoot arch prevents twisting on uneven ground",
+            "Dual-density sole provides softer heel landing and firmer toe push",
+            "Priced under \u20b91,600 for high durability"
+        ],
+        "trade_offs": [
+            "Aesthetic is traditional running rather than casual sneaker.",
+            "Moderate flex."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 2089
+            },
+            {
+                "date": "60d ago",
+                "price": 1822
+            },
+            {
+                "date": "30d ago",
+                "price": 1694
+            },
+            {
+                "date": "15d ago",
+                "price": 1614
+            },
+            {
+                "date": "Current",
+                "price": 1599
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Sparx runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Sparx midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-sparx-sx0171g": {
+        "canonical_id": "shoe-sparx-sx0171g",
+        "title": "Sparx SX0171G Responsive Cushioning Road Running Shoes",
+        "brand": "Sparx",
+        "category": "running_shoes",
+        "subcategory": "Daily Road Running",
+        "image": "https://images.unsplash.com/photo-1581101767113-1677fc2beaa8?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Daily Running, Gym Workout, Outdoor Steps",
+            "Sole": "Moulded EVA Midsole with Full Length Rubber Pods",
+            "Material": "Engineered Knit Mesh Upper",
+            "Weight": "270 g",
+            "Drop": "9 mm",
+            "Color": "Navy / Red",
+            "Terrain": "Road & Track"
+        },
+        "base_score": 9.1,
+        "best_price": 1299,
+        "mrp": 1799,
+        "badge": "Cheapest",
+        "score_reasons": [
+            "Rubber pods on high-wear heel and forefoot zones prolong lifespan",
+            "Engineered knit upper flexes with foot motion",
+            "Excellent value at \u20b91,299"
+        ],
+        "trade_offs": [
+            "Standard foam bounce.",
+            "Insole requires 10km break-in."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 1709
+            },
+            {
+                "date": "60d ago",
+                "price": 1480
+            },
+            {
+                "date": "30d ago",
+                "price": 1376
+            },
+            {
+                "date": "15d ago",
+                "price": 1311
+            },
+            {
+                "date": "Current",
+                "price": 1299
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Sparx runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Sparx midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-reebok-energen-run-3": {
+        "canonical_id": "shoe-reebok-energen-run-3",
+        "title": "Reebok Energen Run 3 Lightweight Road Running Shoes (FuelFoam Midsole)",
+        "brand": "Reebok",
+        "category": "running_shoes",
+        "subcategory": "Daily Road Running",
+        "image": "https://images.unsplash.com/photo-1605408499391-6368c628ef42?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Daily 5km-10km Running, Treadmill, Aerobic Training",
+            "Sole": "FuelFoam Density Midsole with Full-Length Rubber",
+            "Material": "Monogrid Mesh Upper with Padded Foam Tongue",
+            "Weight": "260 g",
+            "Drop": "9 mm",
+            "Color": "Pure Grey / Core Black / Neon Green",
+            "Terrain": "Road & Asphalt"
+        },
+        "base_score": 9.3,
+        "best_price": 2699,
+        "mrp": 4599,
+        "badge": "Best Value",
+        "score_reasons": [
+            "FuelFoam delivers an optimal ratio of responsive spring to soft landing",
+            "Monogrid upper allows maximum airflow on hot morning runs",
+            "Competitively priced at \u20b92,699 across major retailers"
+        ],
+        "trade_offs": [
+            "Heel collar padding is moderate.",
+            "Arch support is standard; flat-footed runners may need custom orthotics."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 4369
+            },
+            {
+                "date": "60d ago",
+                "price": 3076
+            },
+            {
+                "date": "30d ago",
+                "price": 2860
+            },
+            {
+                "date": "15d ago",
+                "price": 2725
+            },
+            {
+                "date": "Current",
+                "price": 2699
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Reebok runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Reebok midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-reebok-stride-runner": {
+        "canonical_id": "shoe-reebok-stride-runner",
+        "title": "Reebok Stride Runner Shoes (EVA Foam Cushioning, Breathable Textile)",
+        "brand": "Reebok",
+        "category": "running_shoes",
+        "subcategory": "Budget Daily Running",
+        "image": "https://images.unsplash.com/photo-1606890658317-7d14490b76fd?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Morning Jogging, Beginner Running, Daily Steps",
+            "Sole": "Injection-Molded EVA Midsole with Traction Pods",
+            "Material": "Breathable Polyester Mesh",
+            "Weight": "252 g",
+            "Drop": "8.5 mm",
+            "Color": "Black / Vector Red",
+            "Terrain": "Road & Park Tracks"
+        },
+        "base_score": 9.1,
+        "best_price": 1699,
+        "mrp": 2999,
+        "badge": "Budget Pick",
+        "score_reasons": [
+            "Best ultra-budget brand runner in India (sub-\u20b91,800)",
+            "Featherweight 252g build causes zero foot fatigue",
+            "Simple, durable design that cleans easily"
+        ],
+        "trade_offs": [
+            "EVA foam without rubber covering outsole reduces lifespan to ~400km.",
+            "Minimalist stability purely for casual road runners."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 2849
+            },
+            {
+                "date": "60d ago",
+                "price": 1936
+            },
+            {
+                "date": "30d ago",
+                "price": 1800
+            },
+            {
+                "date": "15d ago",
+                "price": 1715
+            },
+            {
+                "date": "Current",
+                "price": 1699
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Reebok runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Reebok midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-reebok-floatride-energy-5": {
+        "canonical_id": "shoe-reebok-floatride-energy-5",
+        "title": "Reebok Floatride Energy 5 (Floatride TPU Foam, Torsion Plate)",
+        "brand": "Reebok",
+        "category": "running_shoes",
+        "subcategory": "Performance Marathon Daily",
+        "image": "https://images.unsplash.com/photo-1571607388263-1044f9ea01dd?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Long Runs, Marathon Prep, High Rebound Road Sessions",
+            "Sole": "Floatride Energy Bead TPU Foam + Midfoot X-Plate",
+            "Material": "Recycled Engineered Mesh Upper with Cordura Trim",
+            "Weight": "266 g",
+            "Drop": "8 mm",
+            "Color": "White / Vector Navy / Vector Red",
+            "Terrain": "Road & Pavement"
+        },
+        "base_score": 9.6,
+        "best_price": 5999,
+        "mrp": 9999,
+        "badge": "Top Rated",
+        "score_reasons": [
+            "Floatride TPU bead foam outperforms standard EVA by 3x in rebound longevity",
+            "Midfoot X-plate stabilizes arch transitions over 20km distances",
+            "Awarded best daily trainer value by international running media"
+        ],
+        "trade_offs": [
+            "Mid-range pricing (~\u20b95,999).",
+            "Slightly firm road feel during first few kilometers."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 9499
+            },
+            {
+                "date": "60d ago",
+                "price": 6838
+            },
+            {
+                "date": "30d ago",
+                "price": 6358
+            },
+            {
+                "date": "15d ago",
+                "price": 6058
+            },
+            {
+                "date": "Current",
+                "price": 5999
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Reebok runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Reebok midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-reebok-flashfilm-train": {
+        "canonical_id": "shoe-reebok-flashfilm-train",
+        "title": "Reebok Flashfilm Train 2.0 (Flashfilm Polyurethane Cushioning, Flex Outsole)",
+        "brand": "Reebok",
+        "category": "running_shoes",
+        "subcategory": "Gym & Road Running",
+        "image": "https://images.unsplash.com/photo-1519741497674-611481863552?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Cross Training, Sprint Intervals, 5km Road Cardio",
+            "Sole": "Flashfilm Encapsulated PU Midsole with Rubber Pods",
+            "Material": "Monofilament Breathable Mesh Upper",
+            "Weight": "260 g",
+            "Drop": "9 mm",
+            "Color": "Black / Cold Grey / Pure Silver",
+            "Terrain": "Road & Gym"
+        },
+        "base_score": 9.3,
+        "best_price": 3499,
+        "mrp": 5999,
+        "badge": "Best Value",
+        "score_reasons": [
+            "Flashfilm polyurethane layer provides consistent bounce without pack-out",
+            "Ultra-breathable monomesh upper keeps feet dry in humid conditions",
+            "Grippy rubber outsole holds well on gym floors and city roads"
+        ],
+        "trade_offs": [
+            "Upper is thin; not insulated for cold winter conditions.",
+            "Moderate heel stack height."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 5699
+            },
+            {
+                "date": "60d ago",
+                "price": 3988
+            },
+            {
+                "date": "30d ago",
+                "price": 3708
+            },
+            {
+                "date": "15d ago",
+                "price": 3533
+            },
+            {
+                "date": "Current",
+                "price": 3499
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Reebok runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Reebok midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-reebok-quick-motion-3": {
+        "canonical_id": "shoe-reebok-quick-motion-3",
+        "title": "Reebok Quick Motion 3 Road Running Shoes (Comfort Footbed, Moulded EVA)",
+        "brand": "Reebok",
+        "category": "running_shoes",
+        "subcategory": "Budget Daily Running",
+        "image": "https://images.unsplash.com/photo-1589182373726-e4f658ab50f0?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Daily Jogging, Morning Cardio, Fitness Walks",
+            "Sole": "Full EVA Midsole with Forefoot Flex Grooves",
+            "Material": "Layered Breathable Mesh with Synthetic Eyestay",
+            "Weight": "258 g",
+            "Drop": "9 mm",
+            "Color": "Vector Navy / Cloud White",
+            "Terrain": "Road & Treadmill"
+        },
+        "base_score": 9.2,
+        "best_price": 2299,
+        "mrp": 3999,
+        "badge": "Best Value",
+        "score_reasons": [
+            "Forefoot flex grooves facilitate natural foot bend during strides",
+            "Comfort memory sockliner provides plush step-in sensation",
+            "Great price point under \u20b92,300"
+        ],
+        "trade_offs": [
+            "Zonal rubber pads at heel/toe rather than full outsole.",
+            "Standard tongue construction."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 3799
+            },
+            {
+                "date": "60d ago",
+                "price": 2620
+            },
+            {
+                "date": "30d ago",
+                "price": 2436
+            },
+            {
+                "date": "15d ago",
+                "price": 2321
+            },
+            {
+                "date": "Current",
+                "price": 2299
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Reebok runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Reebok midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-skechers-go-run-consistent": {
+        "canonical_id": "shoe-skechers-go-run-consistent",
+        "title": "Skechers GO RUN Consistent Running Shoes (ULTRA LIGHT Midsole, Air-Cooled Goga Mat)",
+        "brand": "Skechers",
+        "category": "running_shoes",
+        "subcategory": "Cushioned Road Running",
+        "image": "https://images.unsplash.com/photo-1556906781-9a412961c28c?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Daily Running, High-Impact Joint Protection, 5k-10k Road Training",
+            "Sole": "ULTRA LIGHT Resilient Midsole Foam with Parametric Outsole",
+            "Material": "Smooth Leather & Mesh Fabric Upper",
+            "Weight": "285 g",
+            "Drop": "9 mm",
+            "Color": "Charcoal / Orange",
+            "Terrain": "Road, Treadmill, Hard Surface"
+        },
+        "base_score": 9.4,
+        "best_price": 3599,
+        "mrp": 5499,
+        "badge": "High Cushion",
+        "score_reasons": [
+            "Air-Cooled Goga Mat high-rebound insole cushions feet against hard pavement",
+            "ULTRA LIGHT midsole absorbs heavy shock for knee and back relief",
+            "Parametric web outsole offers smooth transitions from heel to toe"
+        ],
+        "trade_offs": [
+            "Leather overlays add some weight compared to pure engineered mesh shoes.",
+            "Can run slightly wide for runners with very narrow feet."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 5224
+            },
+            {
+                "date": "60d ago",
+                "price": 4102
+            },
+            {
+                "date": "30d ago",
+                "price": 3814
+            },
+            {
+                "date": "15d ago",
+                "price": 3634
+            },
+            {
+                "date": "Current",
+                "price": 3599
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Skechers runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Skechers midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-skechers-max-cushioning": {
+        "canonical_id": "shoe-skechers-max-cushioning",
+        "title": "Skechers Max Cushioning Premier (ULTRA GO 2-Inch Stack, Natural Rocker)",
+        "brand": "Skechers",
+        "category": "running_shoes",
+        "subcategory": "Max Cushion Cloud",
+        "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Recovery Jogging, Long Road Walks, Plantar Fasciitis Relief",
+            "Sole": "ULTRA GO Extra-Thick 2-Inch Stack with Natural Rocker Technology",
+            "Material": "Seamless Engineered Mesh Upper",
+            "Weight": "305 g",
+            "Drop": "6 mm",
+            "Color": "Black / White / Red",
+            "Terrain": "Hard Concrete & Pavement"
+        },
+        "base_score": 9.6,
+        "best_price": 6999,
+        "mrp": 9999,
+        "badge": "Max Cushion",
+        "score_reasons": [
+            "Massive 2-inch ULTRA GO stack delivers near zero impact on knees and ankles",
+            "Rocker sole geometry effortlessly rolls foot forward to reduce heel strain",
+            "Podiatrist-recommended for standing work and recovery runs"
+        ],
+        "trade_offs": [
+            "High stack reduces road feel (not intended for track racing).",
+            "Weighs 305g."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 9499
+            },
+            {
+                "date": "60d ago",
+                "price": 7978
+            },
+            {
+                "date": "30d ago",
+                "price": 7418
+            },
+            {
+                "date": "15d ago",
+                "price": 7068
+            },
+            {
+                "date": "Current",
+                "price": 6999
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Skechers runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Skechers midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-skechers-arch-fit-wave": {
+        "canonical_id": "shoe-skechers-arch-fit-wave",
+        "title": "Skechers Arch Fit Road Running Shoes (Podiatrist-Certified Arch Support)",
+        "brand": "Skechers",
+        "category": "running_shoes",
+        "subcategory": "Orthopedic & Arch Support",
+        "image": "https://images.unsplash.com/photo-1516478177764-9fe5bd7e9717?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Daily Running with Flat Feet, Severe Pronation Relief",
+            "Sole": "Patented Skechers Arch Fit Insole System + Resilient Midsole",
+            "Material": "Engineered Knit Mesh Upper with Lace-Up Front",
+            "Weight": "285 g",
+            "Drop": "10 mm",
+            "Color": "Navy / Light Blue",
+            "Terrain": "Road & Pavement"
+        },
+        "base_score": 9.5,
+        "best_price": 4499,
+        "mrp": 6999,
+        "badge": "Arch Fit Certified",
+        "score_reasons": [
+            "Developed with 20 years of podiatrist data to distribute weight evenly",
+            "Removable supportive cushioning insole system",
+            "Completely eliminates arch and plantar foot ache on long runs"
+        ],
+        "trade_offs": [
+            "Prominent arch support takes 2-3 runs to adjust to.",
+            "Upper is snug around midfoot."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 6649
+            },
+            {
+                "date": "60d ago",
+                "price": 5128
+            },
+            {
+                "date": "30d ago",
+                "price": 4768
+            },
+            {
+                "date": "15d ago",
+                "price": 4543
+            },
+            {
+                "date": "Current",
+                "price": 4499
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Skechers runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Skechers midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-skechers-dlites-ultra": {
+        "canonical_id": "shoe-skechers-dlites-ultra",
+        "title": "Skechers D'Lites Ultra Running Shoes (Air-Cooled Memory Foam, Chunky Midsole)",
+        "brand": "Skechers",
+        "category": "running_shoes",
+        "subcategory": "Chunky Road Running",
+        "image": "https://images.unsplash.com/photo-1528701800487-ba01fea498c0?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Daily Cardio, Jogging, All-Day Street Wear",
+            "Sole": "Thick Shock-Absorbing Midsole with Rubber Traction",
+            "Material": "Trubuck Leather and Mesh Fabric",
+            "Weight": "310 g",
+            "Drop": "10 mm",
+            "Color": "White / Navy / Silver",
+            "Terrain": "Road & Concrete"
+        },
+        "base_score": 9.3,
+        "best_price": 3899,
+        "mrp": 5999,
+        "badge": "Chunky Comfort",
+        "score_reasons": [
+            "Iconic D'Lites chunky sole provides substantial impact cushioning",
+            "Air-Cooled Memory Foam insole molds to individual foot shape",
+            "Durable leather construction lasts for years"
+        ],
+        "trade_offs": [
+            "Chunky silhouette is heavier (310g).",
+            "Less flexible than modern knit running shoes."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 5699
+            },
+            {
+                "date": "60d ago",
+                "price": 4444
+            },
+            {
+                "date": "30d ago",
+                "price": 4132
+            },
+            {
+                "date": "15d ago",
+                "price": 3937
+            },
+            {
+                "date": "Current",
+                "price": 3899
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Skechers runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Skechers midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-asian-tarzan-11": {
+        "canonical_id": "shoe-asian-tarzan-11",
+        "title": "Asian Tarzan-11 Memory Foam Road Running Shoes (Air Capsule Sole)",
+        "brand": "Asian",
+        "category": "running_shoes",
+        "subcategory": "Budget Daily Running",
+        "image": "https://images.unsplash.com/photo-1538805060514-97d9cc17730c?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Daily Morning Jogging, Walking, Gym Warmup",
+            "Sole": "High Elastic EVA Midsole with Air Cushion Bubble",
+            "Material": "Knitted Breathable Upper with Elastic Collar",
+            "Weight": "250 g",
+            "Drop": "8.5 mm",
+            "Color": "Grey / Orange",
+            "Terrain": "Road & Park Tracks"
+        },
+        "base_score": 9.1,
+        "best_price": 999,
+        "mrp": 1599,
+        "badge": "Sub-\u20b91,000 Pick",
+        "score_reasons": [
+            "Best value running shoe under \u20b91,000 with 50,000+ ratings online",
+            "Air capsule sole offers noticeable heel cushioning on morning runs",
+            "Featherweight 250g weight with snug collar fit"
+        ],
+        "trade_offs": [
+            "Sole longevity is ~350km on coarse tarmac.",
+            "Simple arch support."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 1519
+            },
+            {
+                "date": "60d ago",
+                "price": 1138
+            },
+            {
+                "date": "30d ago",
+                "price": 1058
+            },
+            {
+                "date": "15d ago",
+                "price": 1008
+            },
+            {
+                "date": "Current",
+                "price": 999
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Asian runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Asian midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-asian-future-01": {
+        "canonical_id": "shoe-asian-future-01",
+        "title": "Asian Future-01 High-Bounce Running Shoes (Phylon Midsole, Knitted Upper)",
+        "brand": "Asian",
+        "category": "running_shoes",
+        "subcategory": "Budget Daily Running",
+        "image": "https://images.unsplash.com/photo-1590674899484-d5640e854abe?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Daily 3k-5k Running, Gym, Casual",
+            "Sole": "Phylon Shock Absorber with Anti-Skid Rubber Pods",
+            "Material": "Seamless 3D Knitted Upper",
+            "Weight": "255 g",
+            "Drop": "9 mm",
+            "Color": "Black / White",
+            "Terrain": "Road & Concrete"
+        },
+        "base_score": 9.1,
+        "best_price": 1199,
+        "mrp": 1899,
+        "badge": "Cheapest",
+        "score_reasons": [
+            "Seamless knitted upper prevents blisters during extended workouts",
+            "Phylon midsole absorbs street impacts reliably",
+            "Exceptional price-to-comfort ratio under \u20b91,200"
+        ],
+        "trade_offs": [
+            "Insole lacks deep contouring.",
+            "Soft upper requires tight lacing for high speeds."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 1804
+            },
+            {
+                "date": "60d ago",
+                "price": 1366
+            },
+            {
+                "date": "30d ago",
+                "price": 1270
+            },
+            {
+                "date": "15d ago",
+                "price": 1210
+            },
+            {
+                "date": "Current",
+                "price": 1199
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Asian runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Asian midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-asian-jasper-02": {
+        "canonical_id": "shoe-asian-jasper-02",
+        "title": "Asian Jasper-02 Men's Running Shoes (TPR Sole, Stitched Overlays)",
+        "brand": "Asian",
+        "category": "running_shoes",
+        "subcategory": "Rugged Road Running",
+        "image": "https://images.unsplash.com/photo-1554412933-514a83d2f3c8?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Rough Road Running, Morning Walks, High Durability",
+            "Sole": "Dual-Layer EVA + TPR Rubber Compound Outsole",
+            "Material": "Mesh with Synthetic Toe Cap & Heel Counter",
+            "Weight": "285 g",
+            "Drop": "10 mm",
+            "Color": "Navy / Green",
+            "Terrain": "All-Terrain (Road, Gravel, Dust)"
+        },
+        "base_score": 9.0,
+        "best_price": 1299,
+        "mrp": 1999,
+        "badge": "Rugged Value",
+        "score_reasons": [
+            "TPR rubber bottom resists tearing on stony paths and rough tarmac",
+            "Synthetic overlays reinforce midfoot against ankle strain",
+            "Affordable workhorse for Indian road conditions at \u20b91,299"
+        ],
+        "trade_offs": [
+            "Slightly heavier at 285g.",
+            "Firmer step feel."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 1899
+            },
+            {
+                "date": "60d ago",
+                "price": 1480
+            },
+            {
+                "date": "30d ago",
+                "price": 1376
+            },
+            {
+                "date": "15d ago",
+                "price": 1311
+            },
+            {
+                "date": "Current",
+                "price": 1299
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Asian runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Asian midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-asian-bouncer-01": {
+        "canonical_id": "shoe-asian-bouncer-01",
+        "title": "Asian Bouncer-01 Ultra-Light Jogging Shoes (Slip-On Air-Cooled Mesh)",
+        "brand": "Asian",
+        "category": "running_shoes",
+        "subcategory": "Ultra-Light Slip-On",
+        "image": "https://images.unsplash.com/photo-1511556532299-8f662fc26c06?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Light Morning Jogging, Daily Walking, House & Park",
+            "Sole": "Ultra-Lightweight Moulded EVA Outsole",
+            "Material": "Air-Cooled Mesh Fabric with Elastic Gusset",
+            "Weight": "230 g",
+            "Drop": "8 mm",
+            "Color": "Black / Red",
+            "Terrain": "Road & Pavement"
+        },
+        "base_score": 8.9,
+        "best_price": 899,
+        "mrp": 1399,
+        "badge": "Sub-\u20b91,000 Pick",
+        "score_reasons": [
+            "Ultra-economical price under \u20b9900",
+            "Featherweight 230g build causes zero drag",
+            "Breathable open weave prevents foot sweating"
+        ],
+        "trade_offs": [
+            "Minimalist sole without rubber tread.",
+            "Not for intense running above 5km."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 1329
+            },
+            {
+                "date": "60d ago",
+                "price": 1024
+            },
+            {
+                "date": "30d ago",
+                "price": 952
+            },
+            {
+                "date": "15d ago",
+                "price": 907
+            },
+            {
+                "date": "Current",
+                "price": 899
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Asian runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Asian midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-new-balance-411-v3": {
+        "canonical_id": "shoe-new-balance-411-v3",
+        "title": "New Balance 411 V3 Road Running Shoes (Ground Contact EVA, Comfort Collar)",
+        "brand": "New Balance",
+        "category": "running_shoes",
+        "subcategory": "Daily Road Running",
+        "image": "https://images.unsplash.com/photo-1535043934128-cf0b28d52f95?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Daily 5km Running, Gym, Walking",
+            "Sole": "Ground Contact EVA Cushioning with Rubber Pods",
+            "Material": "Sublimated Breathable Mesh Upper",
+            "Weight": "262 g",
+            "Drop": "9 mm",
+            "Color": "Black / Magnet / White",
+            "Terrain": "Road & Treadmill"
+        },
+        "base_score": 9.3,
+        "best_price": 3699,
+        "mrp": 4999,
+        "badge": "Best Value",
+        "score_reasons": [
+            "Classic New Balance comfort engineered for Indian road surfaces",
+            "Ground Contact EVA delivers lightweight cushioning without bottoming out",
+            "Roomy toe box provides natural forefoot freedom"
+        ],
+        "trade_offs": [
+            "Rubber pods are placed at high wear areas rather than full-length.",
+            "Firm heel counter requires short break-in."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 4749
+            },
+            {
+                "date": "60d ago",
+                "price": 4216
+            },
+            {
+                "date": "30d ago",
+                "price": 3920
+            },
+            {
+                "date": "15d ago",
+                "price": 3735
+            },
+            {
+                "date": "Current",
+                "price": 3699
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified New Balance runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine New Balance midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-new-balance-fresh-foam-arishi": {
+        "canonical_id": "shoe-new-balance-fresh-foam-arishi",
+        "title": "New Balance Fresh Foam Arishi V4 (Fresh Foam Midsole, No-Sew Overlays)",
+        "brand": "New Balance",
+        "category": "running_shoes",
+        "subcategory": "Plush Daily Road",
+        "image": "https://images.unsplash.com/photo-1565814636199-ae8133055c1c?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Daily 5k-15k Road Running, High Comfort All-Day",
+            "Sole": "Precision-Engineered Fresh Foam Midsole with Blown Rubber",
+            "Material": "Engineered Mesh with Seamless No-Sew Overlays",
+            "Weight": "260 g",
+            "Drop": "8 mm",
+            "Color": "Thunder Grey / Cyber Jade",
+            "Terrain": "Road & Pavement"
+        },
+        "base_score": 9.5,
+        "best_price": 5499,
+        "mrp": 7999,
+        "badge": "Fresh Foam Plush",
+        "score_reasons": [
+            "Fresh Foam compound delivers an ultra-cushioned, lightweight cloud feel",
+            "Precision laser engraving in the midsole relieves pressure on landing",
+            "Sleek textured mesh looks sophisticated for both running and travel"
+        ],
+        "trade_offs": [
+            "Mid-range pricing (~\u20b95,499).",
+            "Foam is plush rather than firm racing spring."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 7599
+            },
+            {
+                "date": "60d ago",
+                "price": 6268
+            },
+            {
+                "date": "30d ago",
+                "price": 5828
+            },
+            {
+                "date": "15d ago",
+                "price": 5553
+            },
+            {
+                "date": "Current",
+                "price": 5499
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified New Balance runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine New Balance midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-new-balance-520-v8": {
+        "canonical_id": "shoe-new-balance-520-v8",
+        "title": "New Balance 520 V8 Daily Running Shoes (Soft Comfort EVA, Rubber Outsole)",
+        "brand": "New Balance",
+        "category": "running_shoes",
+        "subcategory": "Daily Road Running",
+        "image": "https://images.unsplash.com/photo-1518894781321-630e638d0742?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Daily 5km Jogging, Walking, Fitness",
+            "Sole": "Moulded EVA Foam Midsole with Full Rubber Outsole",
+            "Material": "Textured Engineered Mesh with Synthetic Saddle",
+            "Weight": "270 g",
+            "Drop": "10 mm",
+            "Color": "Eclipse Navy / Vibrant Spring Glow",
+            "Terrain": "Road & Treadmill"
+        },
+        "base_score": 9.3,
+        "best_price": 4299,
+        "mrp": 5999,
+        "badge": "Best Value",
+        "score_reasons": [
+            "Full rubber outsole provides outstanding durability on city streets",
+            "Synthetic saddle holds midfoot securely under hard accelerations",
+            "Dependable workhorse runner from New Balance under \u20b94,500"
+        ],
+        "trade_offs": [
+            "Standard EVA sole compound rather than Fresh Foam.",
+            "Weight is around 270g."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 5699
+            },
+            {
+                "date": "60d ago",
+                "price": 4900
+            },
+            {
+                "date": "30d ago",
+                "price": 4556
+            },
+            {
+                "date": "15d ago",
+                "price": 4341
+            },
+            {
+                "date": "Current",
+                "price": 4299
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified New Balance runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine New Balance midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-under-armour-surge-3": {
+        "canonical_id": "shoe-under-armour-surge-3",
+        "title": "Under Armour Charged Surge 3 Running Shoes (Charged Cushioning Midsole)",
+        "brand": "Under Armour",
+        "category": "running_shoes",
+        "subcategory": "Daily Road Running",
+        "image": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Road Running, Sprint Intervals, Gym Cardio",
+            "Sole": "Charged Cushioning Compression Molded Foam",
+            "Material": "Lightweight Breathable Mesh Upper",
+            "Weight": "255 g",
+            "Drop": "8.5 mm",
+            "Color": "Pitch Gray / Black / White",
+            "Terrain": "Road & Track"
+        },
+        "base_score": 9.4,
+        "best_price": 2699,
+        "mrp": 5499,
+        "badge": "High Performance",
+        "score_reasons": [
+            "Charged Cushioning is firmer in the heel and softer in the forefoot for balanced transitions",
+            "Strategically placed rubber pods enhance durability without added bulk",
+            "High ankle collar padding supports Achilles tendon during fast strides"
+        ],
+        "trade_offs": [
+            "Snug aerodynamic fit; runners with wide feet should consider sizing up.",
+            "Less flex in the midfoot shank."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 5224
+            },
+            {
+                "date": "60d ago",
+                "price": 3076
+            },
+            {
+                "date": "30d ago",
+                "price": 2860
+            },
+            {
+                "date": "15d ago",
+                "price": 2725
+            },
+            {
+                "date": "Current",
+                "price": 2699
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Under Armour runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Under Armour midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-under-armour-assert-9": {
+        "canonical_id": "shoe-under-armour-assert-9",
+        "title": "Under Armour Charged Assert 9 (Leather Overlays, Charged Cushioning)",
+        "brand": "Under Armour",
+        "category": "running_shoes",
+        "subcategory": "Durable Road Running",
+        "image": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Road Running, Weight Training, All-Terrain Jogging",
+            "Sole": "Charged Cushioning Foam with Solid Rubber Outsole",
+            "Material": "Durable Mesh with Stitched Leather Overlays",
+            "Weight": "298 g",
+            "Drop": "10 mm",
+            "Color": "Black / White / Mod Gray",
+            "Terrain": "Road, Track & Gym"
+        },
+        "base_score": 9.4,
+        "best_price": 3999,
+        "mrp": 6499,
+        "badge": "Heavy Duty",
+        "score_reasons": [
+            "Durable leather overlays lock down midfoot and prevent mesh blowout",
+            "Solid rubber outsole covers high impact zones for long-term wear",
+            "Excellent stability during heavy gym lifts and road runs"
+        ],
+        "trade_offs": [
+            "Leather overlays add weight (298g).",
+            "Runs slightly warm in high heat."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 6174
+            },
+            {
+                "date": "60d ago",
+                "price": 4558
+            },
+            {
+                "date": "30d ago",
+                "price": 4238
+            },
+            {
+                "date": "15d ago",
+                "price": 4038
+            },
+            {
+                "date": "Current",
+                "price": 3999
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Under Armour runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Under Armour midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-under-armour-rogue-3": {
+        "canonical_id": "shoe-under-armour-rogue-3",
+        "title": "Under Armour Charged Rogue 3 (Dual Charged Midsole, Deluxe Comfort Sockliner)",
+        "brand": "Under Armour",
+        "category": "running_shoes",
+        "subcategory": "Daily Road Running",
+        "image": "https://images.unsplash.com/photo-1575032617751-6ddec2089882?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Daily 5k-10k Road Runs, Tempo Workouts",
+            "Sole": "Dual Density Charged Cushioning Midsole",
+            "Material": "2-Tone Engineered Mesh Upper",
+            "Weight": "260 g",
+            "Drop": "8 mm",
+            "Color": "Academy Blue / Beta Red",
+            "Terrain": "Road & Pavement"
+        },
+        "base_score": 9.5,
+        "best_price": 4799,
+        "mrp": 7499,
+        "badge": "Top Rated",
+        "score_reasons": [
+            "Dual-density Charged foam pairs plush impact cushioning with responsive push-off",
+            "Removable deluxe foam sockliner conforms to foot contours",
+            "Solid rubber outsole with deep flex grooves for natural stride"
+        ],
+        "trade_offs": [
+            "Price is in the mid-range (\u20b94,799).",
+            "Tongue padding is average."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 7124
+            },
+            {
+                "date": "60d ago",
+                "price": 5470
+            },
+            {
+                "date": "30d ago",
+                "price": 5086
+            },
+            {
+                "date": "15d ago",
+                "price": 4846
+            },
+            {
+                "date": "Current",
+                "price": 4799
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Under Armour runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Under Armour midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-bata-power-xort-run": {
+        "canonical_id": "shoe-bata-power-xort-run",
+        "title": "Bata Power XoRise Phantom Lightweight Running Shoes (Memory Foam Insole)",
+        "brand": "Bata",
+        "category": "running_shoes",
+        "subcategory": "Budget Road Running",
+        "image": "https://images.unsplash.com/photo-1584544479093-8413e6399e7e?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Daily 3k-5k Running, Walking, Everyday Wear",
+            "Sole": "XoRise High-Rebound EVA with Anti-Skid Rubber",
+            "Material": "Seamless Engineered Knitted Mesh",
+            "Weight": "245 g",
+            "Drop": "8 mm",
+            "Color": "Navy / Orange",
+            "Terrain": "Road & Concrete"
+        },
+        "base_score": 9.1,
+        "best_price": 1799,
+        "mrp": 2799,
+        "badge": "Budget Pick",
+        "score_reasons": [
+            "Affordable road runner backed by Bata's extensive retail warranty",
+            "High-rebound XoRise sole offers surprisingly plush bounce",
+            "Exceptional value under \u20b91,800"
+        ],
+        "trade_offs": [
+            "EVA compression sets in earlier after ~350km.",
+            "Best suited for casual 5km runs rather than fast 10k pace."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 2659
+            },
+            {
+                "date": "60d ago",
+                "price": 2050
+            },
+            {
+                "date": "30d ago",
+                "price": 1906
+            },
+            {
+                "date": "15d ago",
+                "price": 1816
+            },
+            {
+                "date": "Current",
+                "price": 1799
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Bata runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Bata midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-bata-power-plazma": {
+        "canonical_id": "shoe-bata-power-plazma",
+        "title": "Bata Power Plazma 2.0 High Energy Return Running Shoes (Tunnel Cushion Sole)",
+        "brand": "Bata",
+        "category": "running_shoes",
+        "subcategory": "Daily Road Running",
+        "image": "https://images.unsplash.com/photo-1593081898401-441113b5bf9d?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Daily 5km Jogging, Fitness Cardio, Walking",
+            "Sole": "Plazma Tunnel Shock Absorption Sole with Rubber Grip",
+            "Material": "Breathable 3D Mesh Upper with TPU Support",
+            "Weight": "270 g",
+            "Drop": "9 mm",
+            "Color": "All Black / Electric Lime",
+            "Terrain": "Road & Concrete"
+        },
+        "base_score": 9.2,
+        "best_price": 2199,
+        "mrp": 3499,
+        "badge": "Best Value",
+        "score_reasons": [
+            "Tunnel cushion chambers deform on impact to absorb road vibrations",
+            "Moulded TPU quarter cage provides lateral support",
+            "Reliable Bata craftsmanship under \u20b92,200"
+        ],
+        "trade_offs": [
+            "Sole voids require occasional cleaning if running on wet mud.",
+            "Moderate flexibility."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 3324
+            },
+            {
+                "date": "60d ago",
+                "price": 2506
+            },
+            {
+                "date": "30d ago",
+                "price": 2330
+            },
+            {
+                "date": "15d ago",
+                "price": 2220
+            },
+            {
+                "date": "Current",
+                "price": 2199
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Bata runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Bata midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-bata-power-engage": {
+        "canonical_id": "shoe-bata-power-engage",
+        "title": "Bata Power Engage Road Running Shoes (Comfort EVA, Lightweight)",
+        "brand": "Bata",
+        "category": "running_shoes",
+        "subcategory": "Budget Road Running",
+        "image": "https://images.unsplash.com/photo-1587245937260-1221b504b2c2?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Morning Walks, Daily Jogging, Everyday Use",
+            "Sole": "Engage Moulded EVA Cushioning",
+            "Material": "Knit Mesh Upper with Padded Collar",
+            "Weight": "248 g",
+            "Drop": "8 mm",
+            "Color": "Dark Grey / Orange",
+            "Terrain": "Road & Park Tracks"
+        },
+        "base_score": 9.0,
+        "best_price": 1399,
+        "mrp": 2199,
+        "badge": "Cheapest",
+        "score_reasons": [
+            "Sub-\u20b91,400 entry into Bata's athletic Power series",
+            "Ultra-lightweight 248g construction",
+            "Padded collar prevents heel chafing"
+        ],
+        "trade_offs": [
+            "Basic EVA without rubber coverage.",
+            "Standard arch support."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 2089
+            },
+            {
+                "date": "60d ago",
+                "price": 1594
+            },
+            {
+                "date": "30d ago",
+                "price": 1482
+            },
+            {
+                "date": "15d ago",
+                "price": 1412
+            },
+            {
+                "date": "Current",
+                "price": 1399
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Bata runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Bata midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-redtape-athleisure-runner": {
+        "canonical_id": "shoe-redtape-athleisure-runner",
+        "title": "Red Tape Men AirFlow Cushion Road Running Shoes (Flow EVA Midsole)",
+        "brand": "Red Tape",
+        "category": "running_shoes",
+        "subcategory": "Budget Daily Running",
+        "image": "https://images.unsplash.com/photo-1581605405669-fcdf81165afa?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Morning Jogging, Gym, Fitness Walks",
+            "Sole": "Flow EVA Shock Absorber Outsole",
+            "Material": "Breathable Mesh Upper with Slip-On Collar",
+            "Weight": "250 g",
+            "Drop": "9 mm",
+            "Color": "All Black / Charcoal",
+            "Terrain": "Road & Treadmill"
+        },
+        "base_score": 9.0,
+        "best_price": 1399,
+        "mrp": 2499,
+        "badge": "Cheapest",
+        "score_reasons": [
+            "Super budget-friendly price point at \u20b91,399",
+            "Featherlight construction with easy slip-on comfort",
+            "Clean all-black aesthetic suitable for running and casual wear"
+        ],
+        "trade_offs": [
+            "Lacks heavy-duty rubber outsole; not meant for rough gravel.",
+            "Minimalist arch support."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 2374
+            },
+            {
+                "date": "60d ago",
+                "price": 1594
+            },
+            {
+                "date": "30d ago",
+                "price": 1482
+            },
+            {
+                "date": "15d ago",
+                "price": 1412
+            },
+            {
+                "date": "Current",
+                "price": 1399
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Red Tape runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Red Tape midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-redtape-airflow-pro": {
+        "canonical_id": "shoe-redtape-airflow-pro",
+        "title": "Red Tape AirFlow Pro Performance Running Shoes (Memory Tech Insole)",
+        "brand": "Red Tape",
+        "category": "running_shoes",
+        "subcategory": "Daily Road Running",
+        "image": "https://images.unsplash.com/photo-1595461135849-bf08893d45f0?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Daily 5km Jogging, Gym Cardio, College Running",
+            "Sole": "Flow EVA Midsole with Rubber Traction Pads",
+            "Material": "Engineered Breathable Jacquard Knit",
+            "Weight": "260 g",
+            "Drop": "9 mm",
+            "Color": "White / Navy Blue / Fluorescent Green",
+            "Terrain": "Road & Concrete"
+        },
+        "base_score": 9.1,
+        "best_price": 1599,
+        "mrp": 2999,
+        "badge": "Best Value",
+        "score_reasons": [
+            "Memory Tech insole provides instant step-in softness",
+            "Rubber traction pads on outsole protect high-wear zones",
+            "Crisp sporty white/navy styling under \u20b91,600"
+        ],
+        "trade_offs": [
+            "White knit requires frequent washing.",
+            "Midsole is tuned for recreational pace."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 2849
+            },
+            {
+                "date": "60d ago",
+                "price": 1822
+            },
+            {
+                "date": "30d ago",
+                "price": 1694
+            },
+            {
+                "date": "15d ago",
+                "price": 1614
+            },
+            {
+                "date": "Current",
+                "price": 1599
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Red Tape runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Red Tape midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-redtape-slipon-stride": {
+        "canonical_id": "shoe-redtape-slipon-stride",
+        "title": "Red Tape Slip-On Stride Running Shoes (Elastic Collar, Flexible EVA)",
+        "brand": "Red Tape",
+        "category": "running_shoes",
+        "subcategory": "Slip-On Running",
+        "image": "https://images.unsplash.com/photo-1580906853203-f493cee9ff28?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Daily Walks, 3km Easy Jogging, Casual Daily Steps",
+            "Sole": "Ultra-Flexible Grooved EVA Outsole",
+            "Material": "Knitted Sock-Like Elastic Upper",
+            "Weight": "235 g",
+            "Drop": "8 mm",
+            "Color": "Grey / Black",
+            "Terrain": "Road & Pavement"
+        },
+        "base_score": 9.0,
+        "best_price": 1199,
+        "mrp": 2199,
+        "badge": "Cheapest",
+        "score_reasons": [
+            "Easy slip-on convenience with zero lacing hassle",
+            "Featherlight 235g weight feels weightless on foot",
+            "Great price point at \u20b91,199"
+        ],
+        "trade_offs": [
+            "Sock collar does not lock down for fast sprint intervals.",
+            "No rubber outsole."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 2089
+            },
+            {
+                "date": "60d ago",
+                "price": 1366
+            },
+            {
+                "date": "30d ago",
+                "price": 1270
+            },
+            {
+                "date": "15d ago",
+                "price": 1210
+            },
+            {
+                "date": "Current",
+                "price": 1199
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Red Tape runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Red Tape midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-woodland-woods-trail": {
+        "canonical_id": "shoe-woodland-woods-trail",
+        "title": "Woodland Woods Trail Running & Trekking Shoes (Lugged Rubber Sole)",
+        "brand": "Woodland",
+        "category": "running_shoes",
+        "subcategory": "Trail & Rough Terrain",
+        "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Trail Running, Gravel Roads, Monsoon Jogging, Dirt Tracks",
+            "Sole": "Deep Lugged Carbon Rubber Outsole with EVA Shock Absorption",
+            "Material": "Heavy-Duty Ballistic Nylon Mesh with Suede Overlays",
+            "Weight": "340 g",
+            "Drop": "10 mm",
+            "Color": "Olive Green / Camel Brown",
+            "Terrain": "Trail, Gravel, Mud & Dirt"
+        },
+        "base_score": 9.4,
+        "best_price": 3495,
+        "mrp": 5495,
+        "badge": "All-Terrain Tough",
+        "score_reasons": [
+            "Legendary Woodland outdoor toughness withstands rocks, thorns and water",
+            "Deep multi-directional rubber lugs prevent slips on loose gravel and mud",
+            "Reinforced toe cap protects toes against stone stubs"
+        ],
+        "trade_offs": [
+            "Heavier build (340g) designed for rugged durability over road sprint speed.",
+            "Firmer ride than plush road shoes."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 5220
+            },
+            {
+                "date": "60d ago",
+                "price": 3984
+            },
+            {
+                "date": "30d ago",
+                "price": 3704
+            },
+            {
+                "date": "15d ago",
+                "price": 3529
+            },
+            {
+                "date": "Current",
+                "price": 3495
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Woodland runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Woodland midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-woodland-grippro-active": {
+        "canonical_id": "shoe-woodland-grippro-active",
+        "title": "Woodland GripPro Active Road & Trail Running Shoes (High-Traction Rubber)",
+        "brand": "Woodland",
+        "category": "running_shoes",
+        "subcategory": "Trail & Rough Terrain",
+        "image": "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Outdoor Running, Rough Tarmac, Park Dirt Loops",
+            "Sole": "GripPro High-Traction Rubber Outsole + Phylon Midsole",
+            "Material": "Hydrophobic Coated Mesh Upper",
+            "Weight": "315 g",
+            "Drop": "9 mm",
+            "Color": "Khaki / Black",
+            "Terrain": "Road, Trail & Mixed Ground"
+        },
+        "base_score": 9.3,
+        "best_price": 2995,
+        "mrp": 4995,
+        "badge": "All-Weather Grip",
+        "score_reasons": [
+            "Hydrophobic mesh upper sheds morning dew and light rain",
+            "GripPro rubber pattern maintains traction on wet city bitumen",
+            "Woodland rugged reliability under \u20b93,000"
+        ],
+        "trade_offs": [
+            "Firmer sole than foam-only city road runners.",
+            "Weight is around 315g."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 4745
+            },
+            {
+                "date": "60d ago",
+                "price": 3414
+            },
+            {
+                "date": "30d ago",
+                "price": 3174
+            },
+            {
+                "date": "15d ago",
+                "price": 3024
+            },
+            {
+                "date": "Current",
+                "price": 2995
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Woodland runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Woodland midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    },
+    "shoe-decathlon-kalenji-jogflow": {
+        "canonical_id": "shoe-decathlon-kalenji-jogflow",
+        "title": "Decathlon Kalenji Jogflow 500.1 Men's Road Running Shoes (Joint Protection Flow)",
+        "brand": "Decathlon",
+        "category": "running_shoes",
+        "subcategory": "Daily Road Running",
+        "image": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=800&auto=format&fit=crop&q=80",
+        "specifications": {
+            "Usage": "Daily 5k-10k Road Running, Half Marathon Training, Impact Reduction",
+            "Sole": "Flow Soft EVA Cushioning with Thick Rubber Tread",
+            "Material": "Engineered Breathable Mesh (Eco-Designed)",
+            "Weight": "270 g",
+            "Drop": "4 mm Low Natural Drop (Promotes Midfoot Stride)",
+            "Color": "Storm Blue / Orange",
+            "Terrain": "Road & Paved Paths"
+        },
+        "base_score": 9.4,
+        "best_price": 2899,
+        "mrp": 3499,
+        "badge": "Editor's Choice",
+        "score_reasons": [
+            "Scientifically developed 4mm drop encourages natural midfoot posture to reduce knee torque",
+            "Decathlon 2-year warranty ensures dependable craftsmanship",
+            "Excellent value at \u20b92,899 with plush heel and forefoot padding"
+        ],
+        "trade_offs": [
+            "4mm low heel drop requires 1-2 weeks adaptation if transitioning from traditional 10mm shoes.",
+            "Sold primarily through Decathlon direct and selected online partners."
+        ],
+        "price_history": [
+            {
+                "date": "90d ago",
+                "price": 3324
+            },
+            {
+                "date": "60d ago",
+                "price": 3304
+            },
+            {
+                "date": "30d ago",
+                "price": 3072
+            },
+            {
+                "date": "15d ago",
+                "price": 2927
+            },
+            {
+                "date": "Current",
+                "price": 2899
+            }
+        ],
+        "sentiment": {
+            "positive_pct": 91,
+            "neutral_pct": 6,
+            "negative_pct": 3,
+            "summary": "Consensus score from 1,200+ verified Decathlon runners highlights superb impact cushioning and breathable upper.",
+            "pros": [
+                "Genuine Decathlon midsole shock absorption",
+                "High durability rubber traction for Indian asphalt & pavement",
+                "True to size fit with locked heel collar"
+            ],
+            "cons": [
+                "Upper may run warm on hot summer afternoons"
+            ]
+        },
+        "score_breakdown": {
+            "price_match": 9.5,
+            "performance": 9.3,
+            "reviews": 9.4,
+            "delivery": 9.4,
+            "user_preference": 9.3
+        }
+    }
+}
